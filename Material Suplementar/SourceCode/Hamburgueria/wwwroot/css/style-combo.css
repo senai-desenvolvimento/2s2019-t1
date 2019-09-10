@@ -1,0 +1,6 @@
+.item-extended {
+    grid-column: 1/3;
+    justify-self: end;
+    background-color: #000;
+
+}

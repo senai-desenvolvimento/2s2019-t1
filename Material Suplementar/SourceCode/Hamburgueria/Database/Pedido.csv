@@ -1,0 +1,3 @@
+id=4;clienteNome=Goku;clienteEndereco=Nuvem Dourado;clienteTelefone=11 99999-9999;clienteEmail=goku@email.com;hamburguerNome=Furioso;hamburguerPreco=9,99;shakeNome=Biscoito;shakePreco=9,99;dataPedido=03/06/2019 10:17:44;precoTotal=19,98
+id=5;clienteNome=Goku;clienteEndereco=Nuvem Dourado;clienteTelefone=11 99999-9999;clienteEmail=goku@email.com;hamburguerNome=HappyBurguer;hamburguerPreco=1,99;shakeNome=Morango;shakePreco=19,99;dataPedido=03/06/2019 10:30:58;precoTotal=21,98
+id=6;clienteNome=Goku;clienteEndereco=Nuvem Dourado;clienteTelefone=11 99999-9999;clienteEmail=goku@email.com;hamburguerNome=Black Burguer;hamburguerPreco=12,99;shakeNome=Chocolate;shakePreco=12,99;dataPedido=03/06/2019 10:34:51;precoTotal=25,98

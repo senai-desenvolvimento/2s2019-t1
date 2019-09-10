@@ -1,0 +1,66 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var user = HttpContextAccessor.HttpContext.Session.GetString("_EMAIL");
+    var userIsLogged = string.IsNullOrEmpty(user);
+    var nomeView = (string)ViewData["NomeView"];
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:900%7COpen+Sans" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Renderizar somente se a View não for a principal -->
+    @if (!"Home".Equals(nomeView))
+    {
+        <link href="~/css/style-pedidos-flex.css" rel="stylesheet" type="text/css">
+    }
+</head>
+<body class="flex-container">
+    <header>
+
+        <nav>
+            <div class="section-container">
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index" class="active">Principal</a></li>
+                    <li><a href='@Url.Action("Index", "Home")#hamburgueres'>Hamburgueres</a></li>
+                    <li><a href='@Url.Action("Index", "Home")#shakes'>Shakes</a></li>
+                    <li><a href='@Url.Action("Index", "Home")#historia'>História</a></li>
+                    <li><a href='@Url.Action("Index", "Home")#local'>Local</a></li>
+                    @if (userIsLogged)
+                    {
+                        <li><a id="bt_login" asp-controller="Cliente" asp-action="Login">Login/Cadastro</a></li>
+                    }
+                    else
+                    {
+                        <li><a id="bt_logout" asp-controller="Cliente" asp-action="Logout">Logoff</a></li>
+                        <li><a id="bt_historico" asp-controller="Cliente" asp-action="Historico">Pedidos</a></li>
+                    }
+                    <li><a id="bt-peca_ja" asp-controller="Pedido" asp-action="Index">Peça já!</a></li>
+                </ul>
+            </div>
+        </nav>
+        @if (!"Home".Equals(nomeView))
+        {
+            //<partial "_HeaderHomePage" />
+            Html.RenderPartial("_HeaderHomePage");
+        }
+    </header>
+    @RenderBody()
+    <footer>
+        <div class="section-container">
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                mcbonalds@email.com
+                <br />
+                11 1234 6789
+            </address>
+        </div>
+    </footer>
+</body>
+</html>

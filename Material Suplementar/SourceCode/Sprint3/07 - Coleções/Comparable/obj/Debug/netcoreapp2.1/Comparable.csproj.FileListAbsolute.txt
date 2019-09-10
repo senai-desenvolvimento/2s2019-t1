@@ -1,0 +1,11 @@
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\bin\Debug\netcoreapp2.1\Comparable.deps.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\bin\Debug\netcoreapp2.1\Comparable.runtimeconfig.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\bin\Debug\netcoreapp2.1\Comparable.runtimeconfig.dev.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\bin\Debug\netcoreapp2.1\Comparable.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\bin\Debug\netcoreapp2.1\Comparable.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\obj\Debug\netcoreapp2.1\Comparable.csprojAssemblyReference.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\obj\Debug\netcoreapp2.1\Comparable.csproj.CoreCompileInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\obj\Debug\netcoreapp2.1\Comparable.AssemblyInfoInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\obj\Debug\netcoreapp2.1\Comparable.AssemblyInfo.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\obj\Debug\netcoreapp2.1\Comparable.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Comparable\obj\Debug\netcoreapp2.1\Comparable.pdb

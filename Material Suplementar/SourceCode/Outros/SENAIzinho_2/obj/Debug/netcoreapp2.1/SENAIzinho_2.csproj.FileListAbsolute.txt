@@ -1,0 +1,11 @@
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\obj\Debug\netcoreapp2.1\SENAIzinho_2.csprojAssemblyReference.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\obj\Debug\netcoreapp2.1\SENAIzinho_2.csproj.CoreCompileInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\obj\Debug\netcoreapp2.1\SENAIzinho_2.AssemblyInfoInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\obj\Debug\netcoreapp2.1\SENAIzinho_2.AssemblyInfo.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\bin\Debug\netcoreapp2.1\SENAIzinho_2.deps.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\bin\Debug\netcoreapp2.1\SENAIzinho_2.runtimeconfig.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\bin\Debug\netcoreapp2.1\SENAIzinho_2.runtimeconfig.dev.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\bin\Debug\netcoreapp2.1\SENAIzinho_2.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\bin\Debug\netcoreapp2.1\SENAIzinho_2.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\obj\Debug\netcoreapp2.1\SENAIzinho_2.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\SENAIzinho_2\obj\Debug\netcoreapp2.1\SENAIzinho_2.pdb

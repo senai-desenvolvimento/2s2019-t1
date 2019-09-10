@@ -1,0 +1,11 @@
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\obj\Debug\netcoreapp2.1\TsukaAirlines.csprojAssemblyReference.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\obj\Debug\netcoreapp2.1\TsukaAirlines.csproj.CoreCompileInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\obj\Debug\netcoreapp2.1\TsukaAirlines.AssemblyInfoInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\obj\Debug\netcoreapp2.1\TsukaAirlines.AssemblyInfo.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\bin\Debug\netcoreapp2.1\TsukaAirlines.deps.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\bin\Debug\netcoreapp2.1\TsukaAirlines.runtimeconfig.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\bin\Debug\netcoreapp2.1\TsukaAirlines.runtimeconfig.dev.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\bin\Debug\netcoreapp2.1\TsukaAirlines.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\bin\Debug\netcoreapp2.1\TsukaAirlines.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\obj\Debug\netcoreapp2.1\TsukaAirlines.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\TsukaAirlines\obj\Debug\netcoreapp2.1\TsukaAirlines.pdb

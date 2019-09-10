@@ -1,0 +1,101 @@
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.deps.json
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.runtimeconfig.json
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.runtimeconfig.dev.json
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.dll
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.pdb
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.Views.dll
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.Views.pdb
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csprojAssemblyReference.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csproj.CoreCompileInputs.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorAssemblyInfo.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorAssemblyInfo.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.AssemblyInfoInputs.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.AssemblyInfo.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.TagHelpers.input.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.TagHelpers.output.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorCoreGenerate.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Cadastro\Index.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeaderNavBar.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorTargetAssemblyInfo.cache
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorTargetAssemblyInfo.cs
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.Views.pdb
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.dll
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.pdb
+D:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csproj.CopyComplete
+d:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Sucesso.g.cshtml.cs
+d:\Work\SENAI\aulas-tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Index.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.deps.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.runtimeconfig.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.runtimeconfig.dev.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.Views.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.Views.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csprojAssemblyReference.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csproj.CoreCompileInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorAssemblyInfo.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorAssemblyInfo.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.AssemblyInfoInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.AssemblyInfo.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.TagHelpers.input.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.TagHelpers.output.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorCoreGenerate.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Cadastro\Index.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Index.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Sucesso.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeaderNavBar.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorTargetAssemblyInfo.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorTargetAssemblyInfo.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.Views.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csproj.CopyComplete
+c:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Historico.g.cshtml.cs
+c:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Login.g.cshtml.cs
+c:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Falha.g.cshtml.cs
+c:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeaderHomePage.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csprojAssemblyReference.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csproj.CoreCompileInputs.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorAssemblyInfo.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorAssemblyInfo.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.AssemblyInfoInputs.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.AssemblyInfo.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.TagHelpers.input.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.TagHelpers.output.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorCoreGenerate.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.dll
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.pdb
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Cadastro\Index.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Historico.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Login.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Index.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Falha.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Sucesso.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeaderHomePage.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorTargetAssemblyInfo.cache
+c:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.RazorTargetAssemblyInfo.cs
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.deps.json
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.runtimeconfig.json
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.dll
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.pdb
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.Views.dll
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\bin\Debug\netcoreapp2.1\Hamburgueria.Views.pdb
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.Views.pdb
+C:\Users\alexandre.fukaya\OneDrive\Documents\Consultoria\Senai\Tecnico Desenvolvimento de Sistemas - Sem1\SourceCode\Hamburgueria\obj\Debug\netcoreapp2.1\Hamburgueria.csproj.CopyComplete

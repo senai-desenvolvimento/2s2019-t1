@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\cesar.felipe\\Documents\\aulas-senai\\curso_tecnico\\1s2019-T1\\C#\\JuntaNomes\\JuntaNomes.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
