@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\bin\Debug\netcoreapp2.1\media.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\bin\Debug\netcoreapp2.1\media.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\bin\Debug\netcoreapp2.1\media.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\bin\Debug\netcoreapp2.1\media.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\bin\Debug\netcoreapp2.1\media.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\obj\Debug\netcoreapp2.1\media.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\obj\Debug\netcoreapp2.1\media.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\obj\Debug\netcoreapp2.1\media.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\obj\Debug\netcoreapp2.1\media.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\obj\Debug\netcoreapp2.1\media.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\media\obj\Debug\netcoreapp2.1\media.pdb
