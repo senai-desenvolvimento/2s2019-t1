@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\obj\Debug\netcoreapp2.1\whileparimpar.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\obj\Debug\netcoreapp2.1\whileparimpar.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\obj\Debug\netcoreapp2.1\whileparimpar.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\obj\Debug\netcoreapp2.1\whileparimpar.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\bin\Debug\netcoreapp2.1\whileparimpar.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\bin\Debug\netcoreapp2.1\whileparimpar.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\bin\Debug\netcoreapp2.1\whileparimpar.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\bin\Debug\netcoreapp2.1\whileparimpar.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\bin\Debug\netcoreapp2.1\whileparimpar.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\obj\Debug\netcoreapp2.1\whileparimpar.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\whileparimpar\obj\Debug\netcoreapp2.1\whileparimpar.pdb

@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\bin\Debug\netcoreapp2.1\contaimpar.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\bin\Debug\netcoreapp2.1\contaimpar.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\bin\Debug\netcoreapp2.1\contaimpar.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\bin\Debug\netcoreapp2.1\contaimpar.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\bin\Debug\netcoreapp2.1\contaimpar.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\obj\Debug\netcoreapp2.1\contaimpar.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\obj\Debug\netcoreapp2.1\contaimpar.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\obj\Debug\netcoreapp2.1\contaimpar.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\obj\Debug\netcoreapp2.1\contaimpar.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\obj\Debug\netcoreapp2.1\contaimpar.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\contaimpar\obj\Debug\netcoreapp2.1\contaimpar.pdb

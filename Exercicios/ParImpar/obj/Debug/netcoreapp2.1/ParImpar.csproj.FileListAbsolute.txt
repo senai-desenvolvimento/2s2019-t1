@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\bin\Debug\netcoreapp2.1\ParImpar.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\bin\Debug\netcoreapp2.1\ParImpar.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\bin\Debug\netcoreapp2.1\ParImpar.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\bin\Debug\netcoreapp2.1\ParImpar.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\bin\Debug\netcoreapp2.1\ParImpar.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\obj\Debug\netcoreapp2.1\ParImpar.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\obj\Debug\netcoreapp2.1\ParImpar.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\obj\Debug\netcoreapp2.1\ParImpar.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\obj\Debug\netcoreapp2.1\ParImpar.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\obj\Debug\netcoreapp2.1\ParImpar.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ParImpar\obj\Debug\netcoreapp2.1\ParImpar.pdb
