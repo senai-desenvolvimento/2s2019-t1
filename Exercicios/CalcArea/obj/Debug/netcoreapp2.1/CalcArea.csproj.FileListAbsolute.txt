@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\obj\Debug\netcoreapp2.1\CalcArea.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\obj\Debug\netcoreapp2.1\CalcArea.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\obj\Debug\netcoreapp2.1\CalcArea.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\obj\Debug\netcoreapp2.1\CalcArea.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\bin\Debug\netcoreapp2.1\CalcArea.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\bin\Debug\netcoreapp2.1\CalcArea.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\bin\Debug\netcoreapp2.1\CalcArea.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\bin\Debug\netcoreapp2.1\CalcArea.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\bin\Debug\netcoreapp2.1\CalcArea.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\obj\Debug\netcoreapp2.1\CalcArea.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\CalcArea\obj\Debug\netcoreapp2.1\CalcArea.pdb

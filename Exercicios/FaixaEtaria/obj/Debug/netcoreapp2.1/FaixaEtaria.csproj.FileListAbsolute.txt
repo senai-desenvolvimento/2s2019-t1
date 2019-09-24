@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\bin\Debug\netcoreapp2.1\FaixaEtaria.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\bin\Debug\netcoreapp2.1\FaixaEtaria.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\bin\Debug\netcoreapp2.1\FaixaEtaria.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\bin\Debug\netcoreapp2.1\FaixaEtaria.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\bin\Debug\netcoreapp2.1\FaixaEtaria.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\obj\Debug\netcoreapp2.1\FaixaEtaria.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\obj\Debug\netcoreapp2.1\FaixaEtaria.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\obj\Debug\netcoreapp2.1\FaixaEtaria.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\obj\Debug\netcoreapp2.1\FaixaEtaria.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\obj\Debug\netcoreapp2.1\FaixaEtaria.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\FaixaEtaria\obj\Debug\netcoreapp2.1\FaixaEtaria.pdb

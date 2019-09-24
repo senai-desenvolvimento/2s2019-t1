@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\bin\Debug\netcoreapp2.1\tabuada.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\bin\Debug\netcoreapp2.1\tabuada.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\bin\Debug\netcoreapp2.1\tabuada.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\bin\Debug\netcoreapp2.1\tabuada.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\bin\Debug\netcoreapp2.1\tabuada.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.pdb
