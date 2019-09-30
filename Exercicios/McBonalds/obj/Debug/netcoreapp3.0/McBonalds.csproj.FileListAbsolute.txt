@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\obj\Debug\netcoreapp3.0\McBonalds.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\obj\Debug\netcoreapp3.0\McBonalds.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\obj\Debug\netcoreapp3.0\McBonalds.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\bin\Debug\netcoreapp3.0\McBonalds.exe
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\bin\Debug\netcoreapp3.0\McBonalds.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\bin\Debug\netcoreapp3.0\McBonalds.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\bin\Debug\netcoreapp3.0\McBonalds.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\bin\Debug\netcoreapp3.0\McBonalds.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\bin\Debug\netcoreapp3.0\McBonalds.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\obj\Debug\netcoreapp3.0\McBonalds.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\McBonalds\obj\Debug\netcoreapp3.0\McBonalds.pdb

@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\bin\Debug\netcoreapp2.1\TempMedia.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\bin\Debug\netcoreapp2.1\TempMedia.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\bin\Debug\netcoreapp2.1\TempMedia.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\bin\Debug\netcoreapp2.1\TempMedia.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\bin\Debug\netcoreapp2.1\TempMedia.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\obj\Debug\netcoreapp2.1\TempMedia.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\obj\Debug\netcoreapp2.1\TempMedia.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\obj\Debug\netcoreapp2.1\TempMedia.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\obj\Debug\netcoreapp2.1\TempMedia.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\obj\Debug\netcoreapp2.1\TempMedia.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\TempMedia\obj\Debug\netcoreapp2.1\TempMedia.pdb

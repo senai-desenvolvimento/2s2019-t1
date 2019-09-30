@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\bin\Debug\netcoreapp2.1\salario.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\bin\Debug\netcoreapp2.1\salario.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\bin\Debug\netcoreapp2.1\salario.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\bin\Debug\netcoreapp2.1\salario.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\bin\Debug\netcoreapp2.1\salario.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\obj\Debug\netcoreapp2.1\salario.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\obj\Debug\netcoreapp2.1\salario.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\obj\Debug\netcoreapp2.1\salario.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\obj\Debug\netcoreapp2.1\salario.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\obj\Debug\netcoreapp2.1\salario.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios\salario\obj\Debug\netcoreapp2.1\salario.pdb

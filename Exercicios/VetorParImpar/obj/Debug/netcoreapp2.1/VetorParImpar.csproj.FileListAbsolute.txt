@@ -1,0 +1,21 @@
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Sprint3\06 - Vetores e Matrizes\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\bin\Debug\netcoreapp2.1\VetorParImpar.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\VetorParImpar\obj\Debug\netcoreapp2.1\VetorParImpar.pdb

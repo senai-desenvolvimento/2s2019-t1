@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\bin\Debug\netcoreapp3.0\SaladeAula.exe
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\bin\Debug\netcoreapp3.0\SaladeAula.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\bin\Debug\netcoreapp3.0\SaladeAula.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\bin\Debug\netcoreapp3.0\SaladeAula.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\bin\Debug\netcoreapp3.0\SaladeAula.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\bin\Debug\netcoreapp3.0\SaladeAula.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\obj\Debug\netcoreapp3.0\SaladeAula.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\obj\Debug\netcoreapp3.0\SaladeAula.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\obj\Debug\netcoreapp3.0\SaladeAula.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\obj\Debug\netcoreapp3.0\SaladeAula.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\SaladeAula\SaladeAula\obj\Debug\netcoreapp3.0\SaladeAula.pdb
