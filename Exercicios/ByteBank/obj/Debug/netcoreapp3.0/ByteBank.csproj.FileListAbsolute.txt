@@ -1,0 +1,11 @@
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\obj\Debug\netcoreapp3.0\ByteBank.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\obj\Debug\netcoreapp3.0\ByteBank.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\obj\Debug\netcoreapp3.0\ByteBank.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\bin\Debug\netcoreapp3.0\ByteBank.exe
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\bin\Debug\netcoreapp3.0\ByteBank.deps.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\bin\Debug\netcoreapp3.0\ByteBank.runtimeconfig.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\bin\Debug\netcoreapp3.0\ByteBank.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\bin\Debug\netcoreapp3.0\ByteBank.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\bin\Debug\netcoreapp3.0\ByteBank.pdb
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\obj\Debug\netcoreapp3.0\ByteBank.dll
+C:\Users\alexandre.fukaya\Documents\Exercicios_Manha\ByteBank\obj\Debug\netcoreapp3.0\ByteBank.pdb

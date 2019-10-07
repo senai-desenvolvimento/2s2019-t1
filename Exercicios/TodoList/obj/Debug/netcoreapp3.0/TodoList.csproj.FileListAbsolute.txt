@@ -1,0 +1,11 @@
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\bin\Debug\netcoreapp3.0\TodoList.exe
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\bin\Debug\netcoreapp3.0\TodoList.deps.json
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\bin\Debug\netcoreapp3.0\TodoList.runtimeconfig.json
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\bin\Debug\netcoreapp3.0\TodoList.runtimeconfig.dev.json
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\bin\Debug\netcoreapp3.0\TodoList.dll
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\bin\Debug\netcoreapp3.0\TodoList.pdb
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\obj\Debug\netcoreapp3.0\TodoList.csprojAssemblyReference.cache
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\obj\Debug\netcoreapp3.0\TodoList.AssemblyInfoInputs.cache
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\obj\Debug\netcoreapp3.0\TodoList.AssemblyInfo.cs
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\obj\Debug\netcoreapp3.0\TodoList.dll
+c:\Users\alexandre.fukaya\Documents\Exercicios_Manha\TodoList\obj\Debug\netcoreapp3.0\TodoList.pdb
