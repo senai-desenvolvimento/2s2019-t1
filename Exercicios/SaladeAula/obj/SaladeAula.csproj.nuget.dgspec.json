@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\SaladeAula.csproj": {}
+    "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\SaladeAula\\SaladeAula.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\SaladeAula.csproj": {
+    "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\SaladeAula\\SaladeAula.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\SaladeAula.csproj",
+        "projectUniqueName": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\SaladeAula\\SaladeAula.csproj",
         "projectName": "SaladeAula",
-        "projectPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\SaladeAula.csproj",
+        "projectPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\SaladeAula\\SaladeAula.csproj",
         "packagesPath": "C:\\Users\\alexandre.fukaya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\obj\\",
+        "outputPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\SaladeAula\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

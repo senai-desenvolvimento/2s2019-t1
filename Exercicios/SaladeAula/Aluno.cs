@@ -51,7 +51,7 @@ namespace SaladeAula
                 notas[i] = nota;
             }
         }
-   
+
         //Metodos
         void Estudar() { }
         void Conversar() { }

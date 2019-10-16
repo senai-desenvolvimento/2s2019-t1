@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\McBonalds\\McBonalds.csproj",
+      "projectUniqueName": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\McBonalds\\McBonalds.csproj",
       "projectName": "McBonalds",
-      "projectPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\McBonalds\\McBonalds.csproj",
+      "projectPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\McBonalds\\McBonalds.csproj",
       "packagesPath": "C:\\Users\\alexandre.fukaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\McBonalds\\obj\\",
+      "outputPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\McBonalds\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

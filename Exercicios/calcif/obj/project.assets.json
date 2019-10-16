@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Tarde\\calcif\\calcif.csproj",
+      "projectUniqueName": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\calcif\\calcif.csproj",
       "projectName": "calcif",
-      "projectPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Tarde\\calcif\\calcif.csproj",
+      "projectPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\calcif\\calcif.csproj",
       "packagesPath": "C:\\Users\\alexandre.fukaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Tarde\\calcif\\obj\\",
+      "outputPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\calcif\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -729,16 +729,23 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

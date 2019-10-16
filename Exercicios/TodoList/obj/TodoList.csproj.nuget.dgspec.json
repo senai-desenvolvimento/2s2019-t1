@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\TodoList\\TodoList.csproj": {}
+    "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\TodoList\\TodoList.csproj": {}
   },
   "projects": {
-    "c:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\TodoList\\TodoList.csproj": {
+    "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\TodoList\\TodoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\TodoList\\TodoList.csproj",
+        "projectUniqueName": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\TodoList\\TodoList.csproj",
         "projectName": "TodoList",
-        "projectPath": "c:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\TodoList\\TodoList.csproj",
+        "projectPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\TodoList\\TodoList.csproj",
         "packagesPath": "C:\\Users\\alexandre.fukaya\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\TodoList\\obj\\",
+        "outputPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\TodoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

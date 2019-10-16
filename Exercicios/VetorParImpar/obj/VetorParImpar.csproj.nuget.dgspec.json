@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj": {}
+    "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj": {
+    "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj",
+        "projectUniqueName": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj",
         "projectName": "VetorParImpar",
-        "projectPath": "C:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj",
+        "projectPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\VetorParImpar.csproj",
         "packagesPath": "C:\\Users\\alexandre.fukaya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\obj\\",
+        "outputPath": "c:\\Users\\alexandre.fukaya\\SESISENAISP - Corporativo\\Professores 1.32 - 2s2019-T1\\Repos\\GitHub\\2s2019-t1\\Exercicios\\VetorParImpar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
