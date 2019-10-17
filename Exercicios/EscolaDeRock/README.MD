@@ -36,26 +36,58 @@ a seguinte regra:
 
 ## Diagramas de Classes
 
-| IHarmonia           |		| IMelodia            |		| IPercussao          |
-|---------------------|		|---------------------|		|---------------------|
-|                     |		|                     |		|                     |
-| bool TocarAcordes() |		| bool TocarSolo()    |		| bool ManterRitmo()  |
+### Interfaces
+| IHarmonia           |
+|---------------------|
+|                     |
+| bool TocarAcordes() |
 
+| IMelodia            |
+|---------------------|
+|                     |
+| bool TocarSolo()    |
 
+| IPercussao          |
+|---------------------|
+|                     |
+| bool ManterRitmo()  |
+
+### Classes
 | InstrumentoMusical          |
 |-----------------------------|
 | string[] notas              |
 |-----------------------------|
 | public string TocarMusica() |
 
-| Baixo    |	| Bateria |		| Contrabaixo |		| GuitarraBaixo |
-|----------|	|---------|		|-------------|		|---------------|
-|          |	|         |		|             |		|               |
-|----------|	|---------|		|-------------|		|---------------|
-|          |	|         |		|             |		|               |
+|    Baixo    |
+|-------------|
+|             |
+|             |
 
-| Tambores |	| Teclado |		| Violão      |
-|----------|	|---------|		|-------------|
-|          |	|         |		|             |
-|----------|	|---------|		|-------------|
-|          |	|         |		|             |
+|   Bateria   |
+|-------------|
+|             |
+|             |
+
+| Contrabaixo |		
+|-------------|		
+|             |				
+|             |		
+
+|   Guitarra  |
+|-------------|
+|             |
+|             |
+
+|  Tambores   |	
+|-------------|	
+|             |	
+
+|   Teclado   |		
+|-------------|		
+|             |						
+
+|    Violão   |
+|-------------|
+|             |
+|             |
