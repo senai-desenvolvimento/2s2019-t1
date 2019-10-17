@@ -1,0 +1,20 @@
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.deps.json
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.runtimeconfig.json
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.dll
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.pdb
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.dll
+C:\Users\alexandre.fukaya\OneDrive - SESISENAISP - Corporativo\Documentos\Exercicios_Manha\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\bin\Debug\netcoreapp2.1\EscolaDeRock.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\EscolaDeRock\obj\Debug\netcoreapp2.1\EscolaDeRock.pdb
