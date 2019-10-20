@@ -21,7 +21,7 @@ namespace salario
                 Console.WriteLine($"Seu novo salário é de R$ {salario:F2}");
 
             } else {
-                Console.WriteLine("Desculpe, sem aumento salaral para você!");
+                Console.WriteLine("Desculpe, sem aumento salarial para você!");
             }
         }
     }

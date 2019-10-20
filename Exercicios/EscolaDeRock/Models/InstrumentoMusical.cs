@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EscolaDeRock.Models
 {
-    public class InstrumentoMusical
+    public virtual class InstrumentoMusical
     {
         string[] notas = { "Dó", "Ré", "Mi", "Fá", "Sol", "Lá", "Si" };
 
