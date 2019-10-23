@@ -1,0 +1,31 @@
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.deps.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.runtimeconfig.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.runtimeconfig.dev.json
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.pdb
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.csprojAssemblyReference.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.csproj.CoreCompileInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.AssemblyInfoInputs.cache
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.AssemblyInfo.cs
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.dll
+C:\Users\cesar.felipe\Documents\aulas-senai\curso_tecnico\1s2019-T1\C#\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Material Suplementar\Exercicios_SourceCode\Outros\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\bin\Debug\netcoreapp2.1\Reciclagem.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem\obj\Debug\netcoreapp2.1\Reciclagem.pdb

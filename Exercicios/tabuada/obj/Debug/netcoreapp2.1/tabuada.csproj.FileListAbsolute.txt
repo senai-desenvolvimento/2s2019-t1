@@ -9,3 +9,13 @@ C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreap
 C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.AssemblyInfo.cs
 C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.dll
 C:\Users\alexandre.fukaya\Documents\Exercicios_Tarde\tabuada\obj\Debug\netcoreapp2.1\tabuada.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\bin\Debug\netcoreapp2.1\tabuada.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\bin\Debug\netcoreapp2.1\tabuada.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\bin\Debug\netcoreapp2.1\tabuada.runtimeconfig.dev.json
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\bin\Debug\netcoreapp2.1\tabuada.dll
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\bin\Debug\netcoreapp2.1\tabuada.pdb
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\obj\Debug\netcoreapp2.1\tabuada.csprojAssemblyReference.cache
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\obj\Debug\netcoreapp2.1\tabuada.AssemblyInfoInputs.cache
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\obj\Debug\netcoreapp2.1\tabuada.AssemblyInfo.cs
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\obj\Debug\netcoreapp2.1\tabuada.dll
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\tabuada\obj\Debug\netcoreapp2.1\tabuada.pdb
