@@ -28,7 +28,7 @@ C é a temperatura em centígrados.
 
 ### 4. Criar um programa que solicite ao usuário um número e diga se o número é par ou impar.
 
-### 5. Criar uma aplicação que leia dois valores para as variáveis A e B, efetuar a troca dos vatores de forma que a variável A passe a ter o valor da variável 8 e que a variável B passe a ter o valor da variável A. Apresentar os valores trocados.
+### 5. Criar uma aplicação que leia dois valores para as variáveis A e B, efetuar a troca dos vatores de forma que a variável A passe a ter o valor da variável B e a variável B passe a ter o valor da variável A. Apresentar os valores trocados.
 
 ### 6. Criar um programa que utilizando a estrutura FOR imprima uma sequencia de números de 0 a 100.
 
