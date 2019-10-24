@@ -9,13 +9,13 @@
 * Diagonal
 
 ### 2. Criar um programa que leia uma temperatura em graus centígrados e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é:
- $$F=\frac{9.C + 160}{5}$$ 
+F=(9*C + 160)/5
 
 Onde: 
 
-$F$ é a temperatura em Fahrenheit.
+F é a temperatura em Fahrenheit.
 
-$C$ é a temperatura em centígrados. 
+C é a temperatura em centígrados. 
 
 ### 3. Criar um programa que efetue o cálculo da quantidade de litros de combustível gastos em uma viagem, sabendo-se que o carro faz 12 km com um litro. Deverão ser fornecidos o tempo gasto na viagem e a velocidade média. Utilizar as seguintes fórmulas: 
 
@@ -35,13 +35,14 @@ $C$ é a temperatura em centígrados.
 ### 7. Criar um programa que utilizando uma estrutura FOR imprima todos os números impares de 0 a 10.
 
 ### 8. Criar uma aplicação console que peça ao usuário a altura de um triangulo, desenhe na tela o triangulo invertido, como abaixo:
-
+```
 Altura do Triangulo: 4
 
-\****
-\***
-\**
-\*
+****
+***
+**
+*
+```
 
 ### 9. Escrever uma aplicação que leia um peso na Terra e o número de um planeta e imprima o valor do seu peso neste planeta. A relação de planetas é dada a seguir juntamente com o valor das gravidades relativas à Terra:
 
@@ -55,7 +56,7 @@ Altura do Triangulo: 4
 | 6 | 1,17               | Urano    |
 
 ### Para calcular o peso no planeta use a fórmula: 
-$$Pplaneta=\frac{Pterra}{10}.gravidade$$
+Pplaneta=(Pterra/10) * gravidade
 
 ### 10. Crie um programa que peça para o usuário entrar com um número e imprimir uma das mensagens: é multiplo de 3 ou não é multiplo de 3.
 
@@ -75,7 +76,7 @@ $$Pplaneta=\frac{Pterra}{10}.gravidade$$
 
 ### 16. Um endocrinologista deseja controlar a saúde de seus pacientes e, para isso, se utiliza do Índice de Massa Corporal (IMC). Sabendo-se que o IMC é calculado através da seguinte fórmula:
 
-$$IMC = \frac{peso}{altura^2}$$ 
+IMC = peso / altura<sup>2</sup>
 
 ### Onde: 
 - Peso é dado em Kg 
@@ -95,6 +96,7 @@ $$IMC = \frac{peso}{altura^2}$$
 
 ### 18. Criar uma aplicação que leia um número que será o limite superior de um intervalo e imprimir todos os números ímpares menores do que esse número.
 Exemplo: 
+
 Limite superior: 15  Impressão: 1,2,5,7,9,11,13
 
 ## Arrays e Coleções.
@@ -103,7 +105,7 @@ Limite superior: 15  Impressão: 1,2,5,7,9,11,13
 
 ### 20. Criar um programa que inicialize uma vetor de 10 inteiros com números aleatórios gerados com o método random e imprima duas listas, uma com os números pares outra com numeros impares.
 
-### 21. Criar um programa que simule o uso de um caixa eletronico, onde o usuário pode entrar um valor, e o programa calcula o número de notas a serem entregues pelo dispositivo.
+### 21. Criar um programa que simule o uso de um caixa eletronico, onde o usuário pode entrar um valor, e o programa calcula o número de notas a serem entregues pelo dispositivo. O dispositivo deve minimizar o número de notas entregues para o usuário.
 
 ### 22. Criar um programa que dada uma matriz 3x3 de inteiros aleatórios, realize a soma de todos os números exibindo o total na tela.
 
@@ -112,8 +114,11 @@ Limite superior: 15  Impressão: 1,2,5,7,9,11,13
 ### 24. Crie uma aplicação que dados dois vetores de inteiro com 10 posições, gere um terceiro vetor contendo a o resultado da soma dos valores dos vetores inciais.
 
 Exemplo:
+
 A={1,2,3,4,5,6,7,8,9,0}
+
 B={0,9,8,7,6,5,4,3,2,1}
+
 C={1,11,11,11,11,11,11,11,11,1}
 
 ### 25. Criar uma aplicação que inicie dois vetores com o tamanho determinado pelo usuário, com números aleatórios, gere um tereceiro vetor que deve ser a união dos dois primeiros e exiba os três vetores na console.
