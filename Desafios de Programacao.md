@@ -66,7 +66,7 @@ Pplaneta=(Pterra/10) * gravidade
 
 ### 13. Criar uma aplicação que peça para o usuário três números e verificar se eles podem ou não ser lados de um triângulo. Imprimir a classificação segundo os lados ou uma mesagem dizendo que os lados não fazem parte de um triângulo. Para ser um triângulo válido, o comprimento de um lado do triângulo é sempre menor do que a soma dos outros dois.
 
-### 14. Crie um programa em kilometros por hora que permita ao usuário entrar com um verbo no infinitivo e imprimir uma das mensagens:
+### 14. Crie um programa que permita ao usuário entrar com um verbo no infinitivo e imprimir uma das mensagens:
 * Verbo não está no infinitivo.
 * Verbo da 1ª- conjugação.
 * Verbo da 2ª- conjugação.
