@@ -1,0 +1,11 @@
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\bin\Debug\netcoreapp3.0\Triangulo.exe
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\bin\Debug\netcoreapp3.0\Triangulo.deps.json
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\bin\Debug\netcoreapp3.0\Triangulo.runtimeconfig.json
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\bin\Debug\netcoreapp3.0\Triangulo.runtimeconfig.dev.json
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\bin\Debug\netcoreapp3.0\Triangulo.dll
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\bin\Debug\netcoreapp3.0\Triangulo.pdb
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\obj\Debug\netcoreapp3.0\Triangulo.csprojAssemblyReference.cache
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\obj\Debug\netcoreapp3.0\Triangulo.AssemblyInfoInputs.cache
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\obj\Debug\netcoreapp3.0\Triangulo.AssemblyInfo.cs
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\obj\Debug\netcoreapp3.0\Triangulo.dll
+c:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Triangulo\obj\Debug\netcoreapp3.0\Triangulo.pdb

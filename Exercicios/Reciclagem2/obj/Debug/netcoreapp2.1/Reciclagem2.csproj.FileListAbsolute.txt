@@ -1,0 +1,10 @@
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\bin\Debug\netcoreapp2.1\Reciclagem2.deps.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\bin\Debug\netcoreapp2.1\Reciclagem2.runtimeconfig.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\bin\Debug\netcoreapp2.1\Reciclagem2.runtimeconfig.dev.json
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\bin\Debug\netcoreapp2.1\Reciclagem2.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\bin\Debug\netcoreapp2.1\Reciclagem2.pdb
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\obj\Debug\netcoreapp2.1\Reciclagem2.csprojAssemblyReference.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\obj\Debug\netcoreapp2.1\Reciclagem2.AssemblyInfoInputs.cache
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\obj\Debug\netcoreapp2.1\Reciclagem2.AssemblyInfo.cs
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\obj\Debug\netcoreapp2.1\Reciclagem2.dll
+C:\Users\alexandre.fukaya\SESISENAISP - Corporativo\Professores 1.32 - 2s2019-T1\Repos\GitHub\2s2019-t1\Exercicios\Reciclagem2\obj\Debug\netcoreapp2.1\Reciclagem2.pdb

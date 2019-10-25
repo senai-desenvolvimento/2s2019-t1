@@ -15,8 +15,15 @@ namespace Reciclagem
             do
             {
                 System.Console.WriteLine("Estas são as coisas descartadas por você até agora:");
-                int codigo = MenuUtils<LixosEnum>.ExibirMenuPadrao();
-                Reciclar(Lixeira.lixos[codigo]);
+                //int codigo = MenuUtils<LixosEnum>.ExibirMenuPadrao();
+                int codigo = MenuUtils<LixosEnum>.ExibirMenuEspecial();
+                if (codigo >= 1 && codigo <= 6)
+                {
+                    Reciclar(Lixeira.lixos[codigo]);
+                } else
+                {
+                    querSair = true;
+                }
 
             } while (!querSair);
         }

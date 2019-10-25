@@ -83,6 +83,7 @@ namespace Reciclagem.View
             System.Console.WriteLine(barraMenu);
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.Black;
+            //Trocar o texto. Está com o texto da escola de rock.
             System.Console.WriteLine("     Seja bem-vindo(a) Vocal!      ");
             System.Console.WriteLine("        Escolha uma formação:      ");
             Console.ResetColor();
