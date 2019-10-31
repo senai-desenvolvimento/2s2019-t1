@@ -1,4 +1,5 @@
 using System;
+using McBonaldsMVC.Enums;
 
 namespace McBonaldsMVC.Models
 {
@@ -11,8 +12,10 @@ namespace McBonaldsMVC.Models
         public string Senha {get;set;}
         public string Email {get;set;}
         public DateTime DataNascimento {get;set;}
+        public uint TipoCliente {get; set;}
 
         public Cliente () {
+            this.TipoCliente = (uint) TipoClienteEnum.USUARIO;
         }
 
         public Cliente (string[] registroCliente) 
@@ -24,11 +27,13 @@ namespace McBonaldsMVC.Models
             this.Endereco = registroCliente[4];
             this.Telefone = registroCliente[5];
             this.DataNascimento = DateTime.Parse(registroCliente[6]);
+            this.TipoCliente = (uint) TipoClienteEnum.USUARIO;
         }
 
         public Cliente (string Nome, string Endereco) {
             this.Nome = Nome;
             this.Endereco = Endereco;
+            this.TipoCliente = (uint) TipoClienteEnum.USUARIO;
         }
     }
 }

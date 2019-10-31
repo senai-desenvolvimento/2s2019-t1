@@ -21,7 +21,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    padding: 0 0 20px 0;
+    color: #a70000;
+    text-shadow: 
+    -1px -1px 0 #ff9933,
+    1px -1px 0 #ff9933,
+   -1px  1px 0 #ff9933,
+    1px  1px 0 #ff9933;
 }
 
 h2 > img {
@@ -79,6 +86,9 @@ nav {
     z-index: 999;
 }
 
+/*
+    PASSO 7 - Copie esse estilo abaixo para perto dos seus estilos de NAV
+*/
 nav #bt-mobile-menu {
     display: none;
 }
@@ -303,6 +313,7 @@ footer {
     font-weight: bold;
     text-align: center;
     color: #a70000;
+    width: 100%;
 }
 
 address {
@@ -378,7 +389,10 @@ address {
     #banner p > strong {
         -webkit-text-stroke: 2px #ffcc00;
     }
-
+/*
+    PASSO 8 - Copie esses estilos (até a próxima linha pontilhada)
+    para DENTRO da sua media query para tamanho mobile
+*/
     nav #bt-mobile-menu {
         display: block;
     }
@@ -395,6 +409,9 @@ address {
         display: flex;
         flex-direction: column;
     }
+    /*
+    --------------------------------------------------------------------
+    */
 
     #historia .flex-group {
         flex-direction: column;

@@ -1,13 +1,8 @@
-using System.Security.Claims;
-using System.Net;
-using System.Runtime.InteropServices;
 using McBonaldsMVC.Repositories;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using McBonaldsMVC.ViewModels;
-using McBonaldsMVC.Utils;
+
 
 namespace McBonaldsMVC.Controllers
 {
@@ -23,38 +18,56 @@ namespace McBonaldsMVC.Controllers
         }
 
         [HttpGet]
-        public IActionResult Login() 
+        public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-
-        public IActionResult Login(IFormCollection form) 
+        public IActionResult Login(IFormCollection form)
         {
             var usuario = form["email"];
             var senha = form["senha"];
             var cliente = repository.ObterPor(usuario);
 
-            if (cliente != null && cliente.Email.Equals(usuario) && cliente.Senha.Equals(senha))
+            if (cliente != null)
             {
-                HttpContext.Session.SetString(SESSION_EMAIL, usuario);
-                HttpContext.Session.SetString(SESSION_CLIENTE, cliente.Nome);
-                
-                return RedirectToAction("Historico","Cliente");
-            } 
-            else 
+                if (cliente.Email.Equals(usuario) && cliente.Senha.Equals(senha))
+                {
+                    switch (cliente.TipoCliente)
+                    {
+                        case 0:
+                            HttpContext.Session.SetString(SESSION_EMAIL, usuario);
+                            HttpContext.Session.SetString(SESSION_CLIENTE, cliente.Nome);
+                            return RedirectToAction("Dashboard", "Administrador");
+                        case 1:
+                            HttpContext.Session.SetString(SESSION_EMAIL, usuario);
+                            HttpContext.Session.SetString(SESSION_CLIENTE, cliente.Nome);
+                            return RedirectToAction("Historico", "Cliente");
+                    }
+                }
+                else
+                {
+                    // Errou alguma coisa
+                    ViewData["Action"] = "Login";
+                    return View("Falha");
+                }
+            }
+            else
             {
                 ViewData["Action"] = "Login";
+                // Cliente não encontrado
                 return View("Falha");
             }
-            
+            // TODO: Consertar essa lógica
+            return null;
         }
 
         public IActionResult Historico()
         {
             var pedidos = pedidoRepository.ListarTodosPorCliente(HttpContext.Session.GetString(SESSION_EMAIL));
-            return View(new HistoricoViewModel(this){
+            return View(new HistoricoViewModel(this)
+            {
                 Pedidos = pedidos
             });
         }
@@ -64,7 +77,7 @@ namespace McBonaldsMVC.Controllers
             HttpContext.Session.Remove(SESSION_EMAIL);
             HttpContext.Session.Remove(SESSION_CLIENTE);
             HttpContext.Session.Clear();
-            return RedirectToAction("Index","Home");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

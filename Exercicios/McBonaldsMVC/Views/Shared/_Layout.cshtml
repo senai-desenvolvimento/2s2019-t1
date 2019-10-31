@@ -19,13 +19,17 @@
     <!-- Renderizar somente se a View não for a principal -->
     @if (!"Home".Equals(nomeView)) 
     {
-        <link href="~/css/style-pedidos-flex.css" rel="stylesheet" type="text/css">
+        <link href="~/css/style-secondary-pages.css" rel="stylesheet" type="text/css">
+        <link href="~/css/style-form-pages.css" rel="stylesheet" type="text/css">
+    }
+    @if ("Dashboard".Equals(nomeView))
+    {
+        <link href="~/css/style-dashboard.css" rel="stylesheet" type="text/css">
     }
     <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
 </head>
-<body>
+<body class="flex-container">
     <header>
-        
         <nav>
             <div class="section-container">
                 <ul>
@@ -41,10 +45,10 @@
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#historia'>História</a></li>
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#local'>Local</a></li>
                     @if (userIsLogged) {
-                        <li><a class="bt-common-menu" id="bt_login" asp-controller="Cliente" asp-action="Login">Login/Cadastro</a></li>
+                        <li class="bt-common-menu"><a id="bt_login" asp-controller="Cliente" asp-action="Login">Login/Cadastro</a></li>
                     } else {
-                        <li><a class="bt-common-menu" id="bt_logout" asp-controller="Cliente" asp-action="Logout">Logoff</a></li>
-                        <li><a class="bt-common-menu" id="bt_historico" asp-controller="Cliente" asp-action="Historico">Pedidos</a></li>
+                        <li class="bt-common-menu"><a id="bt_logout" asp-controller="Cliente" asp-action="Logout">Logoff</a></li>
+                        <li class="bt-common-menu"><a id="bt_historico" asp-controller="Cliente" asp-action="Historico">Pedidos</a></li>
                     }
                     <li><a id="bt-peca_ja" asp-controller="Pedido" asp-action="Index">Peça já!</a></li>
                 </ul>

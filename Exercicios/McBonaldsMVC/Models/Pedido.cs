@@ -1,4 +1,6 @@
 using System;
+using McBonaldsMVC.Enums;
+
 namespace McBonaldsMVC.Models
 {
     public class Pedido
@@ -9,12 +11,13 @@ namespace McBonaldsMVC.Models
         public Shake Shake {get;set;}
         public DateTime DataDoPedido {get; set;}
         public double PrecoTotal {get;set;}
-
+        public uint Status {get; set;}
 
         public Pedido() {
             this.Cliente = new Cliente();
             this.Hamburguer = new Hamburguer();
             this.Shake = new Shake();
+            this.Status = (uint) StatusPedidoEnum.PENDENTE;
             
         }
 

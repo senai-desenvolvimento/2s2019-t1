@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #361a0c;
+    text-align: center;
+    height: 100%;
+}
+
+main {
+    width: 40%;
+    align-self: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}

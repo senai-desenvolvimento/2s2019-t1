@@ -5,6 +5,7 @@ using System.Security.AccessControl;
 using McBonaldsMVC.Models;
 using System.Text.RegularExpressions;
 using System;
+using McBonaldsMVC.Enums;
 
 namespace McBonaldsMVC.Repositories {
     public class ClienteRepository : BaseRepository {
@@ -130,12 +131,13 @@ namespace McBonaldsMVC.Repositories {
             cliente.Endereco = ExtrairCampo("endereco", registro);
             cliente.Telefone = ExtrairCampo("telefone", registro);
             cliente.DataNascimento = DateTime.Parse(ExtrairCampo("data_nascimento", registro));
+            cliente.TipoCliente = uint.Parse(ExtrairCampo("tipo_cliente", registro));
 
             return cliente;
         }
 
         private string PrepararRegistroCSV (Cliente cliente) {
-            return $"id={CONT};nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento}\n";
+            return $"id={CONT};nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento};tipo_cliente={cliente.TipoCliente}\n";
         }
 
 
