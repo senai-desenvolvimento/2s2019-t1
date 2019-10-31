@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #361a0c;
+    text-align: center;
+    height: 100%;
+}
+
+main {
+    width: 40%;
+    align-self:center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+h2 {
+    /* Manter, se quiser o h2 no hgroup: */
+    /* padding: 30px 0; */
+    padding: 0 0 20px 0;
+    color: #a70000;
+    text-shadow: 
+    -1px -1px 0 #ff9933,
+    1px -1px 0 #ff9933,
+   -1px  1px 0 #ff9933,
+    1px  1px 0 #ff9933;
+}
+
+form * {
+    margin: 5px 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+form input, form select {
+    width: 100%;
+    height: 25px;
+    border: none;
+    text-align: left;
+    padding: 0 2px;
+}  
+
+form label {
+    color: #ff9933;
+    font-weight: bold;
+}
+
+form input[type="submit"] {
+    background-color: #ff9933;
+    border: 1px solid #ff9933;
+    color: #361a0c;
+    margin: 20px 0;
+    height: 2em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a70000;
+    color: #ffcc00;
+    border: 1px solid #a70000;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.double-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.double-field > div {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+@media (max-width: 800px) {
+    main {
+        width:70%;
+    }
+}

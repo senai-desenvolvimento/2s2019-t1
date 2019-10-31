@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Pedidos - McBonald's";
+    ViewData["H2"] = "Login";
+}
+    <header>
+        <hgroup>
+            <h1>McBonald's</h1>
+        </hgroup>
+    </header>
+
+    <main>
+        <h2>@ViewData["H2"]</h2>
+        <form method="POST" action='@Url.Action("Login", "Cliente")'>
+            <div>
+                <label for="email">E-mail</label>
+                <br />
+                <input id="email" type="email" maxlength="20" minlength="3" name="email" />
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <br />
+                <input id="senha" type="password" maxlength="20" minlength="3" name="senha" />
+            </div>
+            
+            <input type="submit" value="Acessar minha conta" />
+
+            <div id="link-cadastro">
+                <a href='@Url.Action("Index", "Cadastro")'>Quero me cadastrar!</a>
+            </div>
+
+        </form>
+
+    </main>
+

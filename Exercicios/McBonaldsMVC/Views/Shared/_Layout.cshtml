@@ -1,0 +1,99 @@
+﻿@{
+    var user = Context.Session.GetString("_EMAIL");
+    var userIsLogged = string.IsNullOrEmpty(user);
+    var nomeView = (string) ViewData["NomeView"];
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+    <link href="img/logo_simbolo.png" rel="icon" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:900%7COpen+Sans" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Importar o Font Awesome para o projeto -->
+    <!-- Renderizar somente se a View não for a principal -->
+    @if (!"Home".Equals(nomeView)) 
+    {
+        <link href="~/css/style-pedidos-flex.css" rel="stylesheet" type="text/css">
+    }
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <div class="section-container">
+                <ul>
+                    <li id="bt-mobile-menu">
+                        <!-- HTML para colocar os ícones do FA -->
+                        <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Home" asp-action="Index" class="active">Principal</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#hamburgueres'>Hamburgueres</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#shakes'>Shakes</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#historia'>História</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#local'>Local</a></li>
+                    @if (userIsLogged) {
+                        <li><a class="bt-common-menu" id="bt_login" asp-controller="Cliente" asp-action="Login">Login/Cadastro</a></li>
+                    } else {
+                        <li><a class="bt-common-menu" id="bt_logout" asp-controller="Cliente" asp-action="Logout">Logoff</a></li>
+                        <li><a class="bt-common-menu" id="bt_historico" asp-controller="Cliente" asp-action="Historico">Pedidos</a></li>
+                    }
+                    <li><a id="bt-peca_ja" asp-controller="Pedido" asp-action="Index">Peça já!</a></li>
+                </ul>
+            </div>
+        </nav>
+        @if("Home".Equals(nomeView)) {
+            Html.RenderPartial("_HeaderHomePage");
+        }
+    </header>
+    @RenderBody()
+    <footer>
+        <div class="section-container">
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                mcbonalds@email.com
+                <br />
+                11 1234 6789
+            </address>
+        </div>
+    </footer>
+    <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
+</body>
+</html>

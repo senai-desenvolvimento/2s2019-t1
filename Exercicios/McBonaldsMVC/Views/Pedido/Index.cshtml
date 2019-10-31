@@ -1,0 +1,60 @@
+﻿@model McBonaldsMVC.ViewModels.PedidoViewModel
+@{
+    ViewData["Title"] = "Pedidos - McBonald's";
+}
+
+    <main>
+        <h2>Faça seu pedido, 
+        @ViewData["SessionCliente"]!
+        </h2>
+        <form method="POST" action="Pedido/RegistrarPedido">
+            <div>
+                <label for="nome">Nome Completo</label>
+                <br />
+                <input id="nome" type="text" maxlength="20" minlength="3" name="nome" value="@Model.Cliente.Nome" required/>
+            </div>
+
+            <div>
+                <label for="endereco">Endereço</label>
+                <br />
+                <input id="endereco" type="text" maxlength="20" minlength="3" value="@Model.Cliente.Endereco" name="endereco" required/>
+            </div>
+
+            <div>
+                <label for="telefone">Telefone para contato</label>
+                <br />
+                <input id="telefone" type="text" name="telefone" value="@Model.Cliente.Telefone"  required/>
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <br />
+                <input id="email" type="email" name="email" value="@Model.Cliente.Email" required/>
+            </div>
+
+            <div class="double-field">
+                <div>
+                    <label for="hamburguer">Hamburguer</label>
+                    <select id="hamburguer" name="hamburguer" required>
+                        <option value="" disabled selected>Selecione</option>
+                        @foreach( var h in Model.Hamburgueres )
+                        {
+                            <option value=@h.Nome >@h.Nome por @h.Preco</option>
+                        }
+                    </select>
+                </div>
+                <div>
+                    <label for="shake">Shake</label>
+                    <select id="shake" name="shake" required>
+                        <option value="" disabled selected>Selecione</option>
+                        @foreach( var s in Model.Shakes )
+                        {
+                             <option value=@s.Nome >@s.Nome por @s.Preco</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="Finalizar pedido!" />
+        </form>
+
+    </main>
