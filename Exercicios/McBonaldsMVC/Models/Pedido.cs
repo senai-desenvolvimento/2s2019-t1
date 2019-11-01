@@ -18,7 +18,6 @@ namespace McBonaldsMVC.Models
             this.Hamburguer = new Hamburguer();
             this.Shake = new Shake();
             this.Status = (uint) StatusPedidoEnum.PENDENTE;
-            
         }
 
     }

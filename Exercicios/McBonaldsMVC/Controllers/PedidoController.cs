@@ -1,7 +1,6 @@
 using System;
 using McBonaldsMVC.Models;
 using McBonaldsMVC.Repositories;
-using McBonaldsMVC.Utils;
 using McBonaldsMVC.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

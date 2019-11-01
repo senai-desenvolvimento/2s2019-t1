@@ -1,4 +1,4 @@
-
+@model McBonaldsMVC.ViewModels.DashboardViewModel
 
     <main>
         <h2>Dashboard</h2>
@@ -8,15 +8,15 @@
             <div id="painel">
                 <div class="box-status-pedidos aprovados">
                     <h4>Aprovados</h4>
-                    <p>3</p>
+                    <p>@Model.PedidosAprovados</p>
                 </div>
                 <div class="box-status-pedidos pendentes">
                     <h4>Pendentes</h4>
-                    <p>3</p>
+                    <p>@Model.PedidosPendentes</p>
                 </div>
                 <div class="box-status-pedidos reprovados">
                     <h4>Reprovados</h4>
-                    <p>3</p>
+                    <p>@Model.PedidosReprovados</p>
                 </div>
             </div>
         </section>
@@ -46,22 +46,18 @@
                     </tr>
                 </tfoot>
                 <tbody>
-                    <tr>
-                        <td>Cesar Sportore</td>
-                        <td>Rua dos bobos, n0</td>
-                        <td>Furioso</td>
-                        <td>Morango</td>
-                        <td><a href="#"><i class="fas fa-check"></i></a></td>
-                        <td><a href="#"><i class="fas fa-times"></i></a></td>
-                    </tr>
-                    <tr>
-                        <td>Alexandre Fukaya</td>
-                        <td>Rua do nada, n0</td>
-                        <td>Furioso</td>
-                        <td>Morango</td>
-                        <td><a href="#"><i class="fas fa-check"></i></a></td>
-                        <td><a href="#"><i class="fas fa-times"></i></a></td>
-                    </tr>
+                    @foreach(var pedido in Model.Pedidos )
+                    {
+                        <tr>
+                            <td>@pedido.Cliente.Nome</td>
+                            <td>@pedido.Cliente.Endereco</td>
+                            <td>@pedido.Hamburguer.Nome</td>
+                            <td>@pedido.Shake.Nome</td>
+                            <!-- TESTAR! -->
+                            <td><a href='@Url.Action("Aprovar", "Pedido", new {id = @pedido.ID})'><i class="fas fa-check"></i></a></td>
+                            <td><a href='@Url.Action("Remover", "Pedido", new {id = @pedido.ID})'><i class="fas fa-times"></i></a></td>
+                        </tr>
+                    }
                 </tbody>
             </table>
         </section>
