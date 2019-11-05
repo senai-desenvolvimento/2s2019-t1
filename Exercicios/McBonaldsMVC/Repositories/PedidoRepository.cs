@@ -30,13 +30,13 @@ namespace McBonaldsMVC.Repositories
             CONT++;
             File.WriteAllText(PATH_INDEX, CONT.ToString());
 
-            string linha = PrepararRegistroCSV(pedido);
-            File.AppendAllText(PATH, linha);
+            var linha = new string[] { PrepararRegistroCSV(pedido) };
+            File.AppendAllLines(PATH, linha);
 
             return true;
         }
 
-        public bool Atualizar(Pedido pedido)
+        public bool Atualizar(ulong id, Pedido pedido)
         {
             var pedidosRecuperados = ObterRegistrosCSV(PATH);
             var clienteString = PrepararRegistroCSV(pedido);
@@ -45,7 +45,7 @@ namespace McBonaldsMVC.Repositories
 
             for (int i = 0; i < pedidosRecuperados.Length; i++)
             {
-                if (clienteString.Equals(pedidosRecuperados[i]))
+                if (id.ToString().Equals(ExtrairValorDoCampo("id", pedidosRecuperados[i])))
                 {
                     linhaPedido = i;
                     resultado = true;
@@ -56,14 +56,11 @@ namespace McBonaldsMVC.Repositories
                 pedidosRecuperados[linhaPedido] = clienteString;
                 File.WriteAllLines(PATH, pedidosRecuperados);
             }
-
             return resultado;
-
         }
 
         public bool Apagar(ulong id)
         {
-
             var pedidosRecuperados = ObterRegistrosCSV(PATH);
             var linhaPedido = -1;
             var resultado = false;
@@ -88,10 +85,10 @@ namespace McBonaldsMVC.Repositories
 
         public Pedido ObterPor(ulong id)
         {
-
             foreach (var item in ObterRegistrosCSV(PATH))
             {
-                if (id.Equals(ExtrairCampo(id.ToString(), item)))
+                string valor = ExtrairValorDoCampo("id", item);
+                if (id.Equals(ulong.Parse(valor)))
                 {
                     return ConverterEmObjeto(item);
                 }
@@ -104,7 +101,7 @@ namespace McBonaldsMVC.Repositories
 
             foreach (var item in ObterRegistrosCSV(PATH))
             {
-                if (email.Equals(ExtrairCampo(email, item)))
+                if (email.Equals(ExtrairValorDoCampo(email, item)))
                 {
                     return ConverterEmObjeto(item);
                 }
@@ -117,8 +114,11 @@ namespace McBonaldsMVC.Repositories
             var linhas = ObterRegistrosCSV(PATH);
             foreach (var item in linhas)
             {
-                Pedido pedido = ConverterEmObjeto(item);
-                this.pedidos.Add(pedido);
+                if (!string.IsNullOrEmpty(item))
+                {
+                    Pedido pedido = ConverterEmObjeto(item);
+                    this.pedidos.Add(pedido);
+                }
             }
             return this.pedidos;
         }
@@ -129,10 +129,13 @@ namespace McBonaldsMVC.Repositories
             var linhas = ObterRegistrosCSV(PATH);
             foreach (var item in linhas)
             {
-                Pedido pedido = ConverterEmObjeto(item);
-                if (pedido.Cliente.Email.Equals(emailCliente))
+                if (!string.IsNullOrEmpty(item))
                 {
-                    this.pedidos.Add(pedido);
+                    Pedido pedido = ConverterEmObjeto(item);
+                    if (pedido.Cliente.Email.Equals(emailCliente))
+                    {
+                        this.pedidos.Add(pedido);
+                    }
                 }
             }
             return this.pedidos;
@@ -142,18 +145,18 @@ namespace McBonaldsMVC.Repositories
         private Pedido ConverterEmObjeto(string registro)
         {
             Pedido pedido = new Pedido();
-            pedido.ID = ulong.Parse(ExtrairCampo("id", registro));
-            pedido.Cliente.Nome = ExtrairCampo("clienteNome", registro);
-            pedido.Cliente.Endereco = ExtrairCampo("clienteEndereco", registro);
-            pedido.Cliente.Telefone = ExtrairCampo("clienteTelefone", registro);
-            pedido.Cliente.Email = ExtrairCampo("clienteEmail", registro);
-            pedido.Hamburguer.Nome = ExtrairCampo("hamburguerNome", registro);
-            pedido.Hamburguer.Preco = double.Parse(ExtrairCampo("hamburguerPreco", registro));
-            pedido.Shake.Nome = ExtrairCampo("shakeNome", registro);
-            pedido.Shake.Preco = double.Parse(ExtrairCampo("shakePreco", registro));
-            pedido.DataDoPedido = DateTime.Parse(ExtrairCampo("dataPedido", registro));
-            pedido.PrecoTotal = double.Parse(ExtrairCampo("precoTotal", registro));
-            pedido.Status = uint.Parse(ExtrairCampo("status", registro));
+            pedido.ID = ulong.Parse(ExtrairValorDoCampo("id", registro));
+            pedido.Cliente.Nome = ExtrairValorDoCampo("clienteNome", registro);
+            pedido.Cliente.Endereco = ExtrairValorDoCampo("clienteEndereco", registro);
+            pedido.Cliente.Telefone = ExtrairValorDoCampo("clienteTelefone", registro);
+            pedido.Cliente.Email = ExtrairValorDoCampo("clienteEmail", registro);
+            pedido.Hamburguer.Nome = ExtrairValorDoCampo("hamburguerNome", registro);
+            pedido.Hamburguer.Preco = double.Parse(ExtrairValorDoCampo("hamburguerPreco", registro));
+            pedido.Shake.Nome = ExtrairValorDoCampo("shakeNome", registro);
+            pedido.Shake.Preco = double.Parse(ExtrairValorDoCampo("shakePreco", registro));
+            pedido.DataDoPedido = DateTime.Parse(ExtrairValorDoCampo("dataPedido", registro));
+            pedido.PrecoTotal = double.Parse(ExtrairValorDoCampo("precoTotal", registro));
+            pedido.Status = uint.Parse(ExtrairValorDoCampo("status", registro));
 
             return pedido;
         }
@@ -161,7 +164,7 @@ namespace McBonaldsMVC.Repositories
         private string PrepararRegistroCSV(Pedido pedido)
         {
             ulong id = pedido.ID == 0 ? CONT : pedido.ID;
-            return $"id={id};clienteNome={pedido.Cliente.Nome};clienteEndereco={pedido.Cliente.Endereco};clienteTelefone={pedido.Cliente.Telefone};clienteEmail={pedido.Cliente.Email};hamburguerNome={pedido.Hamburguer.Nome};hamburguerPreco={pedido.Hamburguer.Preco};shakeNome={pedido.Shake.Nome};shakePreco={pedido.Shake.Preco};dataPedido={pedido.DataDoPedido};precoTotal={pedido.PrecoTotal};status={pedido.Status}\n";
+            return $"id={id};clienteNome={pedido.Cliente.Nome};clienteEndereco={pedido.Cliente.Endereco};clienteTelefone={pedido.Cliente.Telefone};clienteEmail={pedido.Cliente.Email};hamburguerNome={pedido.Hamburguer.Nome};hamburguerPreco={pedido.Hamburguer.Preco};shakeNome={pedido.Shake.Nome};shakePreco={pedido.Shake.Preco};dataPedido={pedido.DataDoPedido};precoTotal={pedido.PrecoTotal};status={pedido.Status}";
         }
     }
 }

@@ -1,2 +1,4 @@
 id=1;nome=Administrador;email=admin@mcbonalds.com;senha=admin;endereco=nenhum;telefone=123;data_nascimento=1/1;tipo_cliente=0
 id=2;nome=Fulano;email=fulano@email.com;senha=123123;endereco=Rua dos Bobos;telefone=11 99999-9999;data_nascimento=18/10/2019 00:00:00;tipo_cliente=1
+id=3;nome=Goku;email=goku@email.com;senha=123123;endereco=Rua dos Bobos;telefone=11 99999-9999;data_nascimento=01/11/2019 00:00:00;tipo_cliente=1id=4;nome=Ciclano;email=ciclano@email.com;senha=123123;endereco=Rua Minha;telefone=11 99999-9999;data_nascimento=01/11/2019 00:00:00;tipo_cliente=1
+id=5;nome=Beltrano;email=beltrano@email.com;senha=123123;endereco=Rua dos Bobos;telefone=11 99999-9999;data_nascimento=01/11/2019 00:00:00;tipo_cliente=1
