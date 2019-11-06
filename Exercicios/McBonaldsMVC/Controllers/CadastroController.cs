@@ -37,6 +37,7 @@ namespace McBonaldsMVC.Views.Cadastro
 
             repositorio.Inserir(cliente);
             
+            ViewData["H2"] = "Cadastro";
             return View("Sucesso", new BaseViewModel(this));
         }
 

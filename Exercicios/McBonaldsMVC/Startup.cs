@@ -43,6 +43,7 @@ namespace McBonaldsMVC {
             {
                 options.Cookie.Name = ".Hamburgueria.Session";
                 options.IdleTimeout = TimeSpan.FromSeconds(10);
+                
                 options.Cookie.IsEssential = true;
             });
         }

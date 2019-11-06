@@ -78,7 +78,6 @@ namespace McBonaldsMVC.Controllers
             pedidoRepository.Inserir(pedido);
 
             ViewData["Action"] = "Pedido";
-            // ViewData["User"] = HttpContext.Session.GetString (SessionEmail);
 
             return View("Sucesso");
         }
