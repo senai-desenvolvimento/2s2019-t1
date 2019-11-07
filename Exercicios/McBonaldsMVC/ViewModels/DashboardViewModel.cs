@@ -8,12 +8,13 @@ namespace McBonaldsMVC.ViewModels
     {
         public DashboardViewModel(BaseController controller) : base(controller)
         {
-            
+            this.Pedidos = new List<Pedido>();
         }
 
         public List<Pedido> Pedidos {get;set;}
         public uint PedidosAprovados {get; set;}
         public uint PedidosReprovados {get; set;}
         public uint PedidosPendentes {get; set;}
+
     }
 }

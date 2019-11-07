@@ -97,5 +97,20 @@ namespace McBonaldsMVC.Controllers
             }
         }
 
+        public IActionResult Reprovar(ulong id)
+        {
+            Pedido pedido = pedidoRepository.ObterPor(id);
+            pedido.Status = (uint) StatusPedidoEnum.REPROVADO;
+
+            if (pedidoRepository.Atualizar(id, pedido))
+            {
+                return RedirectToAction("Dashboard", "Administrador");
+            }
+            else
+            {
+                return View("Falha");
+            }
+        }
+
     }
 }

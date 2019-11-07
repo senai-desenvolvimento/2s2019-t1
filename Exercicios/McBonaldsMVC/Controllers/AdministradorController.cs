@@ -21,7 +21,13 @@ namespace McBonaldsMVC.Controllers
             DashboardViewModel dvm = new DashboardViewModel(this);
 
             var pedidos = pedidoRepository.ListarTodos();
-            dvm.Pedidos = pedidos;
+            // Barrar Pedidos Aprovados e Reprovados
+            foreach (var item in pedidos)
+            {
+                if (item.Status == (uint) StatusPedidoEnum.PENDENTE) {
+                    dvm.Pedidos.Add(item);
+                }
+            }
 
             foreach (var pedido in pedidos)
             {
