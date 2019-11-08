@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>McBonald's</title>
+    <link href="img/logo_simbolo.png" rel="icon" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:900%7COpen+Sans" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style-secondary-pages.css" rel="stylesheet" type="text/css">
+    <link href="css/style-dashboard.css" rel="stylesheet" type="text/css">
+    <!-- Importar o Font Awesome para o projeto -->
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+
+<body class="flex-container">
+    <header>
+        <nav>
+            <div class="section-container">
+                <ul>
+                    <li id="bt-mobile-menu">
+                        <!-- HTML para colocar os ícones do FA -->
+                        <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html" class="active">Principal</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#hamburgueres">Hamburgueres</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#shakes">Shakes</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#historia">História</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#local">Local</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="login.html">Login</a></li>
+                    <li><a id="bt-peca_ja" href="pedidos.html">Peça já!</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hgroup>
+            <h1>McBonald's</h1>
+        </hgroup>
+    </header>
+
+    <main>
+        <h2>Dashboard</h2>
+
+        <section id="status-pedidos">
+            <h3>Status dos pedidos</h3>
+            <div id="painel">
+                <div class="box-status-pedidos aprovados">
+                    <h4>Aprovados</h4>
+                    <p>3</p>
+                </div>
+                <div class="box-status-pedidos pendentes">
+                    <h4>Pendentes</h4>
+                    <p>3</p>
+                </div>
+                <div class="box-status-pedidos reprovados">
+                    <h4>Reprovados</h4>
+                    <p>3</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lista-pedidos">
+            <h3>Lista de pedidos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Nome</th>
+                        <th rowspan="2">Endereço</th>
+                        <th colspan="2">Pedido</th>
+                        <th colspan="2" rowspan="2">Aprovar</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-hamburger"></i></th>
+                        <th><i class="fas fa-mug-hot"></i></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">
+                            <p>Pedidos atualizados em 04/09/2019 às 7:41</p>
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Cesar Sportore</td>
+                        <td>Rua dos bobos, n0</td>
+                        <td>Furioso</td>
+                        <td>Morango</td>
+                        <td><a href="#"><i class="fas fa-check"></i></a></td>
+                        <td><a href="#"><i class="fas fa-times"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Alexandre Fukaya</td>
+                        <td>Rua do nada, n0</td>
+                        <td>Furioso</td>
+                        <td>Morango</td>
+                        <td><a href="#"><i class="fas fa-check"></i></a></td>
+                        <td><a href="#"><i class="fas fa-times"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="section-container">
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                mcbonalds@email.com
+                <br />
+                11 1234 6789
+            </address>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
+</body>
+
+</html>

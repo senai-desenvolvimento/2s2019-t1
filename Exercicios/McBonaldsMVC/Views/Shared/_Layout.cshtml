@@ -1,0 +1,107 @@
+﻿@{
+    var nomeView = (string) ViewData["NomeView"];
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- PASSOS DO MENU RESPONSIVO -->
+    <!-- PASSO 1 - Certifique-se de que essa linha abaixo existe no seu código -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>McBonald's</title>
+    <link href="img/logo_simbolo.png" rel="icon" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:900%7COpen+Sans" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+    @if(!"Home".Equals(nomeView))
+    {
+        <link href="~/css/style-secondary-pages.css" rel="stylesheet" type="text/css">
+        <link href="~/css/style-form-pages.css" rel="stylesheet" type="text/css">
+    }
+    <!-- PASSO 2 - Copie a linha do <script> abaixo para o seu HTML -->
+    <!-- Importar o Font Awesome para o projeto -->
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+<body class="flex-container">
+    <header>
+        <nav>
+            <div class="section-container">
+                <ul>
+                    <!-- PASSO 3 - Adicione esse li à sua ul -->
+                    <li id="bt-mobile-menu">
+                        <!-- HTML para colocar os ícones do FA -->
+                        <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    <!-- PASSO 4 - Adicione essa class="bt-common-menu" nas suas li -->
+                    <!-- PASSO 5 - Adicione o onclick="toggleMobileMenu()" nas tags a -->
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Home" asp-action="Index" class="active">Principal</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#hamburgueres'>Hamburgueres</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#shakes'>Shakes</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#historia'>História</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#local'>Local</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cliente" asp-action="Login">Login</a></li>
+                    <li><a id="bt-peca_ja" href="pedidos.html">Peça já!</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Comentário para eu não esquecer de recolocar aqui o logo-area -->
+        @if("Home".Equals(nomeView))
+        {
+            Html.RenderPartial("_HeaderHomePage");
+        }
+    </header>
+
+    @RenderBody()
+    
+    <footer>
+        <div class="section-container">
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                mcbonalds@email.com
+                <br />
+                11 1234 6789
+            </address>
+            <a href="#">Voltar para o topo!</a>
+        </div>
+    </footer>
+
+    <!-- PASSO 6 - Adicione a tag script e seu conteúdo antes do body fechar -->
+    <!-- Agora vá para o style.css desse projeto! -->
+    <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
+</body>
+
+</html>

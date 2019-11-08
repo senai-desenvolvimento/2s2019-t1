@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- PASSOS DO MENU RESPONSIVO -->
+    <!-- PASSO 1 - Certifique-se de que essa linha abaixo existe no seu código -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>McBonald's</title>
+    <link href="img/logo_simbolo.png" rel="icon" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:900%7COpen+Sans" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- PASSO 2 - Copie a linha do <script> abaixo para o seu HTML -->
+    <!-- Importar o Font Awesome para o projeto -->
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="section-container">
+                <ul>
+                    <!-- PASSO 3 - Adicione esse li à sua ul -->
+                    <li id="bt-mobile-menu">
+                        <!-- HTML para colocar os ícones do FA -->
+                        <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    <!-- PASSO 4 - Adicione essa class="bt-common-menu" nas suas li -->
+                    <!-- PASSO 5 - Adicione o onclick="toggleMobileMenu()" nas tags a -->
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html" class="active">Principal</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#hamburgueres">Hamburgueres</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#shakes">Shakes</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#historia">História</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html#local">Local</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="login.html">Login</a></li>
+                    <li><a id="bt-peca_ja" href="pedidos.html">Peça já!</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="logo-area">
+            <img src="img/logotipo_mcbonalds.png" alt="Logotipo do McBonalds muito legal" title="logo" />
+            <hgroup>
+                <h1>McBonald's</h1>
+                <h2>O melhor hamburguer do <img src="img/universe.png" alt="Universo" title="Steven Universe" /></h2>
+            </hgroup>
+        </section>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="section-container">
+                <p>Peça o seu
+                    <br />
+                    <strong class="banner_destaque">FURIOSO!</strong>
+                    <br />
+                    <span class="up-text">por apenas</span>
+                    <strong class="banner_destaque preco">R$9,99</strong>
+                </p>
+                <img src="img/furioso_banner.jpg" alt="Foto do Hamburguer Furioso" title="FURIOSO!" />
+            </div>
+        </section>
+
+        <section id="hamburgueres">
+            <div class="section-container">
+                <h2>Hamburgueres</h2>
+                <div class="flex-group food-section">
+                    <div class="food-container">
+                        <!-- <div class="ingredients">
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                            </ul>
+                        </div> -->
+                        <!-- <div class="original"> -->
+                            <img src="img/hamburguer_black.jpg" alt="Foto do Hamburguer Emo" title="Gótico Suave" />
+                            <p>R$12,99</p>
+                            <p>Black Burguer</p>
+                        <!-- </div> -->
+                    </div>
+                    <div class="food-container">
+                        <img src="img/hamburguer_combo.jpg" alt="Foto do nosso combo" title="Super combo!" />
+                        <p>R$19,99</p>
+                        <p>Combo da Hora</p>
+                    </div>
+                    <div class="food-container">
+                        <img src="img/hamburguer_vegan.jpg" alt="Foto do Hamburguer Vegano" title="Não é hamburguer!" />
+                        <p>R$10,99</p>
+                        <p>Vegeburguer</p>
+                    </div>
+                    <div class="food-container">
+                        <img src="img/hamburguer_vegan.jpg" alt="Foto do Hamburguer Vegano" title="Não é hamburguer!" />
+                        <p>R$10,99</p>
+                        <p>Vegeburguer</p>
+                    </div>
+                </div>
+                <a href="hamburgueres.html">Clique aqui para ver todos!</a>
+            </div>
+        </section>
+
+        <section id="shakes">
+            <div class="section-container">
+                <h2>Shakes</h2>
+
+                <div class="flex-group food-section">
+                    <div class="food-container">
+                        <img src="img/shake_biscoito.jpg" alt="Foto do Milkshake sabor Biscoito ou Bolacha?"
+                            title="Biscoito ou Bolacha?" />
+                        <p>R$7,99</p>
+                        <p>Biscoito</p>
+                    </div>
+                    <div class="food-container">
+                        <img src="img/shake_chocolate.jpg" alt="Foto do Milkshake de chocolate, dur"
+                            title="Nada de novo debaixo do Sol" />
+                        <p>R$8,99</p>
+                        <p>Chocolate</p>
+                    </div>
+                    <div class="food-container">
+                        <img src="img/shake_morango.jpg" alt="Foto do Milkshake de morango, que não pode faltar!"
+                            title="Mais um clichê" />
+                        <p>R$9,99</p>
+                        <p>Morango</p>
+                    </div>
+                    <div class="food-container">
+                        <img src="img/shake_morango.jpg" alt="Foto do Milkshake de morango, que não pode faltar!"
+                            title="Mais um clichê" />
+                        <p>R$9,99</p>
+                        <p>Morango</p>
+                    </div>
+                </div>
+                <a>Clique aqui para ver todos!</a>
+            </div>
+        </section>
+
+        <section id="historia">
+            <div class="section-container">
+                <div class="flex-group">
+                    <h2>Nossa <br /> História</h2>
+                    <p>Nascida da ousada ideia dos dois fundadores Alexandre Fukaya e Cesar Sportore, desde 2012, a
+                        Hamburgueria
+                        McBonald's vem oferecendo os melhores lanches pelos menores preços!</p>
+                </div>
+                <a href="#">Conte-me mais!</a>
+            </div>
+        </section>
+
+        <section id="local">
+            <div class="section-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8869961505543!2d-46.648477085071065!3d-23.53656648469522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5843deade6e3%3A0x124f377d06c7e71f!2sAlameda+Bar%C3%A3o+de+Limeira%2C+539+-+Campos+El%C3%ADseos%2C+S%C3%A3o+Paulo+-+SP%2C+01202-001!5e0!3m2!1sen!2sbr!4v1550223658410"
+                    width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="section-container">
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                mcbonalds@email.com
+                <br />
+                11 1234 6789
+            </address>
+            <a href="#">Voltar para o topo!</a>
+        </div>
+    </footer>
+
+    <!-- PASSO 6 - Adicione a tag script e seu conteúdo antes do body fechar -->
+    <!-- Agora vá para o style.css desse projeto! -->
+    <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
+</body>
+
+</html>
