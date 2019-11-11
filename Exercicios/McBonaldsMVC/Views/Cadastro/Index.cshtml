@@ -1,0 +1,51 @@
+﻿<main>
+    <h2>Cadastro</h2>
+    <form method="POST" action='@Url.Action("CadastrarCliente", "Cadastro")'>
+        <div>
+            <label for="nome">Nome Completo</label>
+            <br />
+            <input id="nome" type="text" maxlength="20" minlength="3" name="nome" />
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <br />
+            <input id="email" type="email" maxlength="20" minlength="3" name="email" />
+        </div>
+
+        <div>
+            <label for="endereco">Endereço</label>
+            <br />
+            <input id="endereco" type="endereco" maxlength="20" minlength="3" name="endereco" />
+        </div>
+
+        <div>
+            <label for="telefone">Telefone</label>
+            <br />
+            <input id="telefone" type="telefone" maxlength="20" minlength="3" name="telefone" />
+        </div>
+
+        <div>
+            <label for="data-nascimento">Data de Nascimento</label>
+            <br />
+            <input id="data-nascimento" type="date" maxlength="20" minlength="3" name="data-nascimento" />
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <br />
+            <input id="senha" type="password" maxlength="20" minlength="6" name="senha" />
+        </div>
+
+        <div>
+            <label for="confirmar-senha">Confirmar Senha</label>
+            <br />
+            <input id="confirmar-senha" type="password" maxlength="20" minlength="6" name="confirmar-senha" />
+        </div>
+        
+        <input type="submit" value="Finalizar cadastro" />
+        
+    </form>
+</main>
+
+
