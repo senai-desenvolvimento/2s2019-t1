@@ -1,3 +1,4 @@
+using System;
 using McBonaldsMVC.Enums;
 using McBonaldsMVC.Repositories;
 using McBonaldsMVC.ViewModels;
@@ -9,22 +10,21 @@ namespace McBonaldsMVC.Controllers
     {
         PedidoRepository pedidoRepository = new PedidoRepository();
 
-
         public AdministradorController()
         {
-            this.NomeView = "Cliente";
         }
 
         [HttpGet]
         public IActionResult Dashboard()
         {
-            DashboardViewModel dvm = new DashboardViewModel(this);
+            DashboardViewModel dvm = new DashboardViewModel();
 
             var pedidos = pedidoRepository.ListarTodos();
             // Barrar Pedidos Aprovados e Reprovados
             foreach (var item in pedidos)
             {
-                if (item.Status == (uint) StatusPedidoEnum.PENDENTE) {
+                if (item.Status == (uint) StatusPedidoEnum.PENDENTE) 
+                {
                     dvm.Pedidos.Add(item);
                 }
             }
@@ -44,8 +44,9 @@ namespace McBonaldsMVC.Controllers
                     break;
                 }
             }
+            dvm.NomeView = "Dashboard";
+            dvm.UsuarioEmail = RecuperarUsuarioEmailDaSessao();
             
-            ViewData["NomeView"] = "Dashboard";
             return View(dvm);
         }
     }

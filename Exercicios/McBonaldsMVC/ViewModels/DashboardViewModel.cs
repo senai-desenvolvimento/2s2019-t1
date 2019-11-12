@@ -6,7 +6,7 @@ namespace McBonaldsMVC.ViewModels
 {
     public class DashboardViewModel : BaseViewModel
     {
-        public DashboardViewModel(BaseController controller) : base(controller)
+        public DashboardViewModel() : base()
         {
             this.Pedidos = new List<Pedido>();
         }

@@ -14,13 +14,15 @@ namespace McBonaldsMVC.Controllers
 
         public ClienteController()
         {
-            this.NomeView = "Cliente";
+
         }
 
         [HttpGet]
         public IActionResult Login()
         {
-            return View();
+            return View(new BaseViewModel() {
+                NomeView = "Login"
+            });
         }
 
         [HttpPost]
@@ -36,39 +38,39 @@ namespace McBonaldsMVC.Controllers
                 {
                     switch (cliente.TipoCliente)
                     {
-                        case 0:
-                            HttpContext.Session.SetString(SESSION_EMAIL, usuario);
-                            HttpContext.Session.SetString(SESSION_CLIENTE, cliente.Nome);
-                            return RedirectToAction("Dashboard", "Administrador");
                         case 1:
                             HttpContext.Session.SetString(SESSION_EMAIL, usuario);
                             HttpContext.Session.SetString(SESSION_CLIENTE, cliente.Nome);
                             return RedirectToAction("Historico", "Cliente");
+                        default:
+                            HttpContext.Session.SetString(SESSION_EMAIL, usuario);
+                            HttpContext.Session.SetString(SESSION_CLIENTE, cliente.Nome);
+                            return RedirectToAction("Dashboard", "Administrador");
                     }
                 }
                 else
                 {
-                    // Errou alguma coisa
-                    ViewData["Action"] = "Login";
-                    return View("Falha");
+                    return View("Falha", new RespostaViewModel($"Usuário ou senha estão errados"));
                 }
             }
             else
             {
-                ViewData["Action"] = "Login";
-                // Cliente não encontrado
-                return View("Falha");
+                return View("Falha", new RespostaViewModel($"Usuário {usuario} não foi encontrado"));
             }
-            // TODO: Consertar essa lógica
-            return null;
         }
 
         public IActionResult Historico()
         {
+
             var pedidos = pedidoRepository.ListarTodosPorCliente(HttpContext.Session.GetString(SESSION_EMAIL));
-            return View(new HistoricoViewModel(this)
+            
+            // EXEMPLO 3 - Criação de objetos
+            return View(new HistoricoViewModel()
             {
-                Pedidos = pedidos
+                Pedidos = pedidos,
+                NomeView = "Histórico",
+                UsuarioEmail = RecuperarUsuarioEmailDaSessao(),
+                UsuarioNome = RecuperarUsuarioNomeDaSessao()
             });
         }
 

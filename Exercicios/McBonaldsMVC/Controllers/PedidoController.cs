@@ -10,7 +10,6 @@ namespace McBonaldsMVC.Controllers
 {
     public class PedidoController : BaseController
     {
-
         HamburguerRepository hamburguerRepository = new HamburguerRepository();
         ShakeRepository shakeRepository = new ShakeRepository();
         PedidoRepository pedidoRepository = new PedidoRepository();
@@ -22,22 +21,24 @@ namespace McBonaldsMVC.Controllers
             var hamburgueres = hamburguerRepository.ObterTodos();
             var shakes = shakeRepository.ObterTodos();
 
-            PedidoViewModel pedido = new PedidoViewModel(this);
+            PedidoViewModel pedido = new PedidoViewModel();
             pedido.Hamburgueres.AddRange(hamburgueres);
             pedido.Shakes.AddRange(shakes);
 
-            if (TempData["SessionCliente"] == null)
+            var usuarioLogado = RecuperarUsuarioNomeDaSessao();
+            if (string.IsNullOrEmpty(usuarioLogado))
             {
-                ViewData["SessionCliente"] = "jovem";
+                pedido.UsuarioNome = "jovem";
             }
             else
             {
-                ViewData["SessionCliente"] = TempData["SessionCliente"];
+                pedido.UsuarioNome = usuarioLogado;
             }
+            
             if (HttpContext.Session.GetString(SESSION_EMAIL) != null)
             {
                 Cliente cliente = clienteRepository.ObterPor(HttpContext.Session.GetString(SESSION_EMAIL));
-                ViewData["User"] = HttpContext.Session.GetString(SESSION_EMAIL);
+                pedido.UsuarioEmail = HttpContext.Session.GetString(SESSION_EMAIL);
                 pedido.Cliente = cliente;
             }
             else
@@ -49,37 +50,47 @@ namespace McBonaldsMVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult RegistrarPedido(IFormCollection form)
+        public IActionResult Registrar(IFormCollection form)
         {
             Pedido pedido = new Pedido();
 
-            Cliente cliente = new Cliente();
-            cliente.Nome = form["nome"];
-            cliente.Endereco = form["endereco"];
-            cliente.Telefone = form["telefone"];
-            cliente.Email = form["email"];
-
-            pedido.Cliente = cliente;
-
-            Hamburguer hamburguer = new Hamburguer();
-            hamburguer.Nome = form["hamburguer"];
-            hamburguer.Preco = hamburguerRepository.ObterPrecoDe(form["hamburguer"]);
-            pedido.Hamburguer = hamburguer;
-
+            // EXEMPLO 1 - Criação de objeto
             Shake shake = new Shake();
             shake.Nome = form["shake"];
             shake.Preco = shakeRepository.ObterPrecoDe(form["shake"]);
+            
             pedido.Shake = shake;
 
-            pedido.DataDoPedido = DateTime.Now;
+            // EXEMPLO 2 - Criação de objeto
+            Cliente cliente = new Cliente(
+                form["nome"],
+                form["endereco"],
+                form["telefone"],
+                form["email"]
+            );
 
+            pedido.Cliente = cliente;
+
+            // EXEMPLO 3 - Criação de objeto
+            var precoHamburguer = hamburguerRepository.ObterPrecoDe(form["hamburguer"]);
+            Hamburguer hamburguer = new Hamburguer() {
+                Nome = form["hamburguer"],
+                Preco = precoHamburguer
+            };
+
+            pedido.Hamburguer = hamburguer;
+            pedido.DataDoPedido = DateTime.Now;
             pedido.PrecoTotal = pedido.Hamburguer.Preco + pedido.Shake.Preco;
 
-            pedidoRepository.Inserir(pedido);
+            if (pedidoRepository.Inserir(pedido))
+            {
+                return View("Sucesso", new RespostaViewModel($"Aguarde a aprovação pelos nossos atendentes!"));
+            }
+            else
+            {
+                return View("Falha", new RespostaViewModel($"Houve um erro na efetuação do pedido. Favor tentar novamente."));
+            }
 
-            ViewData["Action"] = "Pedido";
-
-            return View("Sucesso");
         }
 
         public IActionResult Aprovar(ulong id)
@@ -93,7 +104,7 @@ namespace McBonaldsMVC.Controllers
             }
             else
             {
-                return View("Falha");
+                return View("Falha", new RespostaViewModel($"Não foi possível aprovar este pedido!"));
             }
         }
 
@@ -108,7 +119,7 @@ namespace McBonaldsMVC.Controllers
             }
             else
             {
-                return View("Falha");
+                return View("Falha", new RespostaViewModel($"Não foi possível aprovar este pedido!"));
             }
         }
 

@@ -67,7 +67,6 @@ namespace McBonaldsMVC.Repositories
 
         public bool Apagar(ulong id)
         {
-
             var clientesRecuperados = ObterRegistrosCSV(PATH);
             var linhaCliente = -1;
             var resultado = false;
@@ -87,7 +86,6 @@ namespace McBonaldsMVC.Repositories
                 try
                 {
                     File.WriteAllLines(PATH, clientesRecuperados);
-
                 }
                 catch (DirectoryNotFoundException dnfe)
                 {

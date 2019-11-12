@@ -5,6 +5,7 @@ namespace McBonaldsMVC.Models
     
     public class Hamburguer : Produto
     {
+        //TODO: Implementar essa opção
         public PontoCarneEnum PontoDaCarne {get;set;}
         
         public Hamburguer()
@@ -12,6 +13,13 @@ namespace McBonaldsMVC.Models
             
         }
 
+        public Hamburguer(string nome, double preco)
+        {
+            this.Nome = nome;
+            this.Preco = preco;
+        }
+
+        // Construtor usado para monstar o objeto a partir da extração do CSV
         public Hamburguer(string[] dados) 
         {
             this.Id = ulong.Parse(dados[0]);

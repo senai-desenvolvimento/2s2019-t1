@@ -1,15 +1,7 @@
-<head>
-    <link href="~/css/style-secondary-pages.css" rel="stylesheet" type="text/css">
-</head>
-
-    <header>
-        <hgroup>
-            <h1>McBonald's</h1>
-        </hgroup>
-    </header>
-
-    <main>
-        <h2>@ViewData["Action"] efetuado com sucesso!</h2>
-    </main>
+@model McBonaldsMVC.ViewModels.RespostaViewModel
+<main>
+    <h2>@Model.NomeView efetuado com sucesso!</h2>
+    <p>@Model.Mensagem</p>
+</main>
 
 

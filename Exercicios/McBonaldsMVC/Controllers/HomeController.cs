@@ -6,27 +6,21 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using McBonaldsMVC.Models;
 using Microsoft.AspNetCore.Http;
+using McBonaldsMVC.ViewModels;
 
 namespace McBonaldsMVC.Controllers
 {
     public class HomeController : BaseController
     {
         
-        private const string SessionEmail = "_EMAIL";
-        private const string SessionCliente = "_CLIENTE";
         public IActionResult Index()
         {
-            // TODO: Remover todos os ViewData
-            ViewData["NomeView"] = "Home";
-            // ViewData["User"] = HttpContext.Session.GetString(SessionEmail);
-            return View();
+            return View(new BaseViewModel(){
+                NomeView = "Home",
+                UsuarioNome = HttpContext.Session.GetString(SESSION_CLIENTE),
+                UsuarioEmail = HttpContext.Session.GetString(SESSION_EMAIL)
+            });
         }
 
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
     }
 }

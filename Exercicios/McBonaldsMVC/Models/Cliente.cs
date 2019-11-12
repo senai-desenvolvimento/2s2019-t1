@@ -18,6 +18,16 @@ namespace McBonaldsMVC.Models
             this.TipoCliente = (uint) TipoClienteEnum.USUARIO;
         }
 
+        // Construtor simples, só pra montar um cliente do objeto Pedido
+        public Cliente(string nome, string endereco, string telefone, string email)
+        {
+            this.Nome = nome;
+            this.Endereco = endereco;
+            this.Telefone = telefone;
+            this.Email = email;
+        }
+
+        // Construtor usado para monstar o objeto a partir da extração do CSV
         public Cliente (string[] registroCliente) 
         {
             this.ID = ulong.Parse(registroCliente[0]);
@@ -30,10 +40,5 @@ namespace McBonaldsMVC.Models
             this.TipoCliente = (uint) TipoClienteEnum.USUARIO;
         }
 
-        public Cliente (string Nome, string Endereco) {
-            this.Nome = Nome;
-            this.Endereco = Endereco;
-            this.TipoCliente = (uint) TipoClienteEnum.USUARIO;
-        }
     }
 }

@@ -6,11 +6,12 @@ namespace McBonaldsMVC.ViewModels
 {
     public class HistoricoViewModel : BaseViewModel
     {
-        public HistoricoViewModel(BaseController controller) : base(controller)
+        public HistoricoViewModel() : base()
         {
             
         }
 
         public List<Pedido> Pedidos {get;set;}
+        public string Bla {get;set;}
     }
 }

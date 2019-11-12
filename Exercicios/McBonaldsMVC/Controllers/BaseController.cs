@@ -10,22 +10,34 @@ namespace McBonaldsMVC.Controllers
     {
         protected const string SESSION_EMAIL = "_EMAIL";
         protected const string SESSION_CLIENTE = "_CLIENTE";
-        public string UserName { get; set; }
-        public string UserEmail { get; set; }
-        public string NomeView { get; set; }
 
         public BaseController()
         {
-            try
-            {
 
-                this.UserName = HttpContext.Session.GetString(SESSION_CLIENTE);
-                this.UserEmail = HttpContext.Session.GetString(SESSION_EMAIL);
+        }
+
+        protected string RecuperarUsuarioNomeDaSessao()
+        {
+            var usuario = HttpContext.Session.GetString(SESSION_CLIENTE);
+            if (!string.IsNullOrEmpty(usuario)) {
+                return usuario;
             }
-            catch (Exception e)
+            else 
             {
-                this.UserName = "";
-                this.UserEmail = "";
+                return "";
+            }
+        }
+
+        protected string RecuperarUsuarioEmailDaSessao()
+        {
+            var email = HttpContext.Session.GetString(SESSION_EMAIL);
+
+            if (!string.IsNullOrEmpty(email)) {
+                return email;
+            }
+            else 
+            {
+                return "";
             }
         }
     }

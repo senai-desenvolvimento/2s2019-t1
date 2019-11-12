@@ -17,16 +17,18 @@ namespace McBonaldsMVC.Views.Cadastro
 
         public CadastroController ()
         {
-            this.NomeView = "Cadastro";
         }
-
+        
+        [HttpGet]
         public IActionResult Index()
         {
-            return View(new BaseViewModel(this));
+            return View(new BaseViewModel());
         }
 
-        public IActionResult Cadastrar(IFormCollection form) 
+        [HttpPost]
+        public IActionResult CadastrarCliente(IFormCollection form) 
         {
+            // EXEMPLO 1 - Criação de objeto
             Cliente cliente = new Cliente();
             cliente.Nome = form["nome"];
             cliente.Endereco = form["endereco"];
@@ -35,10 +37,14 @@ namespace McBonaldsMVC.Views.Cadastro
             cliente.Email = form["email"];
             cliente.DataNascimento = DateTime.Parse(form["data-nascimento"]);
 
-            repositorio.Inserir(cliente);
-            
-            ViewData["H2"] = "Cadastro";
-            return View("Sucesso", new BaseViewModel(this));
+            if (repositorio.Inserir(cliente))
+            {
+                return View("Sucesso", new RespostaViewModel($"{cliente.Nome} obrigado por se cadastrar!"));
+            }
+            else 
+            {
+                return View("Falha", new RespostaViewModel($"{cliente.Nome} houve um erro ao tentar lhe cadastrar. Por favor, tente novamente mais tarde."));
+            }            
         }
 
 

@@ -42,8 +42,7 @@ namespace McBonaldsMVC {
             services.AddSession(options =>
             {
                 options.Cookie.Name = ".Hamburgueria.Session";
-                options.IdleTimeout = TimeSpan.FromSeconds(10);
-                
+                options.IdleTimeout = TimeSpan.FromSeconds(15);
                 options.Cookie.IsEssential = true;
             });
         }
@@ -62,7 +61,6 @@ namespace McBonaldsMVC {
             app.UseCookiePolicy ();
             app.UseSession();
             
-
             app.UseMvc (routes => {
                 routes.MapRoute (
                     name: "default",

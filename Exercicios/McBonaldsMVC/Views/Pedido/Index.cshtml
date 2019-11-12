@@ -1,13 +1,9 @@
 ﻿@model McBonaldsMVC.ViewModels.PedidoViewModel
-@{
-    ViewData["Title"] = "Pedidos - McBonald's";
-}
-
     <main>
         <h2>Faça seu pedido, 
-        @ViewData["SessionCliente"]!
+        @Model.UsuarioNome!
         </h2>
-        <form method="POST" action="Pedido/RegistrarPedido">
+        <form method="POST" action='@Url.Action("Registrar", "Pedido")'>
             <div>
                 <label for="nome">Nome Completo</label>
                 <br />
