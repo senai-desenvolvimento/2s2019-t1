@@ -158,7 +158,7 @@ namespace McBonaldsMVC.Repositories
 
         private string PrepararRegistroCSV(Cliente cliente)
         {
-            return $"id={CONT};nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento};tipo_cliente={cliente.TipoCliente}";
+            return $"id={CONT};"+ $"nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento};tipo_cliente={cliente.TipoCliente}";
         }
 
 
