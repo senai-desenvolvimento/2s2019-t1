@@ -1,3 +1,4 @@
+@model McBonaldsMVC.ViewModels.PedidoViewModel
 <main>
         <h2>Pede aí, jovem!</h2>
         <form method="POST" action='@Url.Action("Registrar","Pedido")'>
@@ -30,8 +31,12 @@
                     <label for="hamburguer">Hamburguer</label>
                     <select id="hamburguer" name="hamburguer" required>
                         <option value="" disabled selected>Selecione</option>
-                        <option value="furioso">Furioso</option>
-                        <option value="combo">Combo</option>
+                        @foreach (var hamburguer in Model.Hamburgueres)
+                        {
+                            <option value=@hamburguer.Nome>@hamburguer.Nome por @hamburguer.Preco
+                                
+                            </option>
+                        }
                     </select>
                 </div>
                 <div>
