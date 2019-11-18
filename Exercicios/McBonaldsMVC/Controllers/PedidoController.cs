@@ -9,12 +9,13 @@ namespace McBonaldsMVC.Controllers {
     public class PedidoController : Controller {
         PedidoRepository pedidoRepository = new PedidoRepository ();
         HamburguerRepository hamburguerRepository = new HamburguerRepository();
+        ShakeRepository shakeRepository = new ShakeRepository();
 
         public IActionResult Index () {
 
             PedidoViewModel pvm = new PedidoViewModel();
             pvm.Hamburgueres = hamburguerRepository.ObterTodos();
-
+            pvm.Shakes = shakeRepository.ObterTodos();
             return View (pvm);
         }
 
@@ -22,13 +23,17 @@ namespace McBonaldsMVC.Controllers {
             ViewData["Action"] = "Pedido";
             Pedido pedido = new Pedido ();
 
+            var nomeShake = form["shake"];
             Shake shake = new Shake ();
-            shake.Nome = form["shake"];
-            shake.Preco = 0.0;
+            shake.Nome = nomeShake;
+            shake.Preco = shakeRepository.ObterPrecoDe(nomeShake);
 
             pedido.Shake = shake;
 
-            Hamburguer hamburguer = new Hamburguer (form["hamburguer"], 0.0);
+            var nomeHamburguer = form["hamburguer"];
+            Hamburguer hamburguer = new Hamburguer (
+                nomeHamburguer, 
+                hamburguerRepository.ObterPrecoDe(nomeHamburguer));
 
             pedido.Hamburguer = hamburguer;
 
@@ -43,7 +48,7 @@ namespace McBonaldsMVC.Controllers {
 
             pedido.DataDoPedido = DateTime.Now;
 
-            pedido.PrecoTotal = 0.0;
+            pedido.PrecoTotal = hamburguer.Preco + shake.Preco;
 
             if (pedidoRepository.Inserir (pedido)) {
                 return View ("Sucesso");

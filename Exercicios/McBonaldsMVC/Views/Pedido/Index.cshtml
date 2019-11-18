@@ -43,8 +43,10 @@
                     <label for="shake">Shake</label>
                     <select id="shake" name="shake">
                         <option value="" disabled selected>Selecione</option>
-                        <option value="chocolate">Chocolate</option>
-                        <option value="biscoito">Biscoito</option>
+                        @foreach (var s in Model.Shakes)
+                        {
+                            <option value=@s.Nome>@s.Nome por @s.Preco</option>
+                        }
                     </select>
                 </div>
             </div>
