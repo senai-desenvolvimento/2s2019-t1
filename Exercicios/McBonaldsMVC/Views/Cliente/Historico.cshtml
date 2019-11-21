@@ -1,0 +1,30 @@
+@model McBonaldsMVC.ViewModels.HistoricoViewModel
+@{
+    ViewData["Title"] = "Pedidos - McBonald's";
+    ViewData["H2"] = "Histórico de Pedidos";
+}
+
+<main>
+    <h2>@ViewData["H2"]</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Hamburguer</th>
+                <th>Shake</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach( var pedido in Model.Pedidos ) {
+                <tr>
+                    <td>@pedido.DataDoPedido</td>
+                    <td>@pedido.Hamburguer.Nome</td>
+                    <td>@pedido.Shake.Nome</td>
+                    <td>@pedido.PrecoTotal</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</main>
