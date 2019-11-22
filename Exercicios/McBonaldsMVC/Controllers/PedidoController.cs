@@ -5,39 +5,59 @@ using McBonaldsMVC.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace McBonaldsMVC.Controllers {
-    public class PedidoController : Controller {
-        PedidoRepository pedidoRepository = new PedidoRepository ();
+namespace McBonaldsMVC.Controllers
+{
+    public class PedidoController : AbstractController
+    {
+        ClienteRepository clienteRepository = new ClienteRepository();
+        PedidoRepository pedidoRepository = new PedidoRepository();
         HamburguerRepository hamburguerRepository = new HamburguerRepository();
         ShakeRepository shakeRepository = new ShakeRepository();
+        public IActionResult Index()
+        {
+            var hamburgueres = hamburguerRepository.ObterTodos();
+            var shakes = shakeRepository.ObterTodos();
 
-        public IActionResult Index () {
+            PedidoViewModel pedido = new PedidoViewModel();
+            pedido.Hamburgueres = hamburgueres;
+            pedido.Shakes = shakes;
 
-            PedidoViewModel pvm = new PedidoViewModel();
-            pvm.Hamburgueres = hamburguerRepository.ObterTodos();
-            pvm.Shakes = shakeRepository.ObterTodos();
-            return View (pvm);
+            var emailCliente = ObterUsuarioSession();
+            if(!string.IsNullOrEmpty(emailCliente))
+            {
+                pedido.Cliente = clienteRepository.ObterPor(emailCliente);
+            }
+
+            var nomeUsuario = ObterUsuarioNomeSession();
+            if(!string.IsNullOrEmpty(nomeUsuario))
+            {
+                pedido.NomeCliente = nomeUsuario;
+            }
+            
+            return View(pedido);
         }
 
-        public IActionResult Registrar (IFormCollection form) {
+        public IActionResult Registrar(IFormCollection form)
+        {
             ViewData["Action"] = "Pedido";
-            Pedido pedido = new Pedido ();
-
+            Pedido pedido = new Pedido();
+            
+            Shake shake = new Shake();
             var nomeShake = form["shake"];
-            Shake shake = new Shake ();
             shake.Nome = nomeShake;
             shake.Preco = shakeRepository.ObterPrecoDe(nomeShake);
 
             pedido.Shake = shake;
 
             var nomeHamburguer = form["hamburguer"];
-            Hamburguer hamburguer = new Hamburguer (
+            Hamburguer hamburguer = new Hamburguer(
                 nomeHamburguer, 
                 hamburguerRepository.ObterPrecoDe(nomeHamburguer));
 
             pedido.Hamburguer = hamburguer;
 
-            Cliente cliente = new Cliente () {
+            Cliente cliente = new Cliente()
+            {
                 Nome = form["nome"],
                 Endereco = form["endereco"],
                 Telefone = form["telefone"],
@@ -47,14 +67,12 @@ namespace McBonaldsMVC.Controllers {
             pedido.Cliente = cliente;
 
             pedido.DataDoPedido = DateTime.Now;
-
+            
             pedido.PrecoTotal = hamburguer.Preco + shake.Preco;
 
-            if (pedidoRepository.Inserir (pedido)) {
-                return View ("Sucesso");
-            } else {
-                return View ("Erro");
-            }
+            pedidoRepository.Inserir(pedido);
+
+            return View("Sucesso");
         }
     }
 }

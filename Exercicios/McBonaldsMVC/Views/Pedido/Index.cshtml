@@ -1,29 +1,29 @@
 @model McBonaldsMVC.ViewModels.PedidoViewModel
 <main>
-        <h2>Pede aí, jovem!</h2>
+        <h2>Pede aí, @Model.NomeCliente!</h2>
         <form method="POST" action='@Url.Action("Registrar","Pedido")'>
             <div>
                 <label for="nome">Nome Completo</label>
                 <br />
-                <input id="nome" type="text" maxlength="20" minlength="3" name="nome"/>
+                <input id="nome" type="text" maxlength="20" minlength="3" value="@Model.Cliente.Nome" name="nome"/>
             </div>
 
             <div>
                 <label for="endereco">Endereço</label>
                 <br />
-                <input id="endereco" type="text" maxlength="20" minlength="3" name="endereco"/>
+                <input id="endereco" type="text" maxlength="20" minlength="3" value="@Model.Cliente.Endereco" name="endereco"/>
             </div>
 
             <div>
                 <label for="telefone">Telefone para contato</label>
                 <br />
-                <input id="telefone" type="text" placeholder="11 12345 6789" name="telefone"/>
+                <input id="telefone" type="text" placeholder="11 12345 6789" value="@Model.Cliente.Telefone" name="telefone"/>
             </div>
 
             <div>
                 <label for="email">E-mail</label>
                 <br />
-                <input id="email" type="email" name="email"/>
+                <input id="email" type="email" value="@Model.Cliente.Email" name="email" />
             </div>
 
             <div class="double-field">
@@ -31,11 +31,9 @@
                     <label for="hamburguer">Hamburguer</label>
                     <select id="hamburguer" name="hamburguer" required>
                         <option value="" disabled selected>Selecione</option>
-                        @foreach (var hamburguer in Model.Hamburgueres)
+                        @foreach(var h in Model.Hamburgueres)
                         {
-                            <option value=@hamburguer.Nome>@hamburguer.Nome por @hamburguer.Preco
-                                
-                            </option>
+                            <option value=@h.Nome>@h.Nome por @h.Preco</option>
                         }
                     </select>
                 </div>
@@ -43,7 +41,7 @@
                     <label for="shake">Shake</label>
                     <select id="shake" name="shake">
                         <option value="" disabled selected>Selecione</option>
-                        @foreach (var s in Model.Shakes)
+                        @foreach(var s in Model.Shakes)
                         {
                             <option value=@s.Nome>@s.Nome por @s.Preco</option>
                         }

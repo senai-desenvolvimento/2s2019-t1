@@ -7,10 +7,11 @@ namespace McBonaldsMVC.Repositories
     public class ShakeRepository
     {
         private const string PATH = "Database/Shake.csv";
+
         public double ObterPrecoDe(string nomeShake)
         {
             var lista = ObterTodos();
-            var preco = 0.0;
+            double preco = 0.0;
             foreach (var item in lista)
             {
                 if(item.Nome.Equals(nomeShake))
@@ -21,15 +22,17 @@ namespace McBonaldsMVC.Repositories
             }
             return preco;
         }
+
         public List<Shake> ObterTodos()
         {
             List<Shake> shakes = new List<Shake>();
-            var linhas = File.ReadAllLines(PATH);
 
+            var linhas = File.ReadAllLines(PATH);
+            
             foreach (var linha in linhas)
             {
                 Shake s = new Shake();
-                var dados = linha.Split(";");
+                string[] dados =linha.Split(";");
                 s.Nome = dados[0];
                 s.Preco = double.Parse(dados[1]);
 

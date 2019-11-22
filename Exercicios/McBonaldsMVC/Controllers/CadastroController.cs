@@ -8,8 +8,9 @@ namespace McBonaldsMVC.Controllers
 {
     public class CadastroController : Controller
     {
-        ClienteRepository clienteRepository = new ClienteRepository();
 
+        ClienteRepository clienteRepositorio = new ClienteRepository();
+        
         public IActionResult Index()
         {
             return View();
@@ -18,23 +19,22 @@ namespace McBonaldsMVC.Controllers
         public IActionResult CadastrarCliente(IFormCollection form)
         {
             ViewData["Action"] = "Cadastro";
-            try
-            {
+            try {
                 Cliente cliente = new Cliente(
-                    form["nome"],
-                    form["endereco"],
+                    form["nome"], 
+                    form["endereco"], 
                     form["telefone"],
                     form["senha"],
                     form["email"],
-                    DateTime.Parse(form["data-nascimento"]));
-
-                clienteRepository.Inserir(cliente);
+                    DateTime.Parse(form["data-nascimento"])
+                );
+                    
+                clienteRepositorio.Inserir(cliente);
                 
                 return View("Sucesso");
             } 
             catch(Exception e)
             {
-                System.Console.WriteLine(e.StackTrace);
                 return View("Erro");
             }
         }
