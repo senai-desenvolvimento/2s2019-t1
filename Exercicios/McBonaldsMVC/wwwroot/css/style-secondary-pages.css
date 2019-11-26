@@ -19,3 +19,10 @@ main {
     justify-content: space-between;
     height: 100%;
 }
+
+#foto-perfil
+{
+    border-radius: 50%;
+    border: 5px solid orange;
+    padding: 1em 0;
+}

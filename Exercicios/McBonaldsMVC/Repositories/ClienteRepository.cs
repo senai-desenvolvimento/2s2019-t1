@@ -152,13 +152,14 @@ namespace McBonaldsMVC.Repositories
             cliente.Telefone = ExtrairValorDoCampo("telefone", registro);
             cliente.DataNascimento = DateTime.Parse(ExtrairValorDoCampo("data_nascimento", registro));
             cliente.TipoCliente = uint.Parse(ExtrairValorDoCampo("tipo_cliente", registro));
+            cliente.URLFotoPerfil = ExtrairValorDoCampo("url_foto", registro);
 
             return cliente;
         }
 
         private string PrepararRegistroCSV(Cliente cliente)
         {
-            return $"id={CONT};"+ $"nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento};tipo_cliente={cliente.TipoCliente}";
+            return $"id={CONT};"+ $"nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento};tipo_cliente={cliente.TipoCliente};url_foto={cliente.URLFotoPerfil}";
         }
 
 

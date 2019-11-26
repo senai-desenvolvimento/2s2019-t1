@@ -13,6 +13,7 @@ namespace McBonaldsMVC.Models
         public string Email {get;set;}
         public DateTime DataNascimento {get;set;}
         public uint TipoCliente {get; set;}
+        public string URLFotoPerfil {get;set;}
 
         public Cliente () {
             this.TipoCliente = (uint) TipoClienteEnum.USUARIO;

@@ -1,9 +1,7 @@
 using System;
-using System.Collections.Generic;
 using McBonaldsMVC.Controllers;
 using McBonaldsMVC.Models;
 using McBonaldsMVC.Repositories;
-using McBonaldsMVC.Utils;
 using McBonaldsMVC.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +10,6 @@ namespace McBonaldsMVC.Views.Cadastro
 {
     public class CadastroController : BaseController
     {
-        
         ClienteRepository repositorio = new ClienteRepository();
 
         public CadastroController ()
@@ -36,6 +33,9 @@ namespace McBonaldsMVC.Views.Cadastro
             cliente.Senha = form["senha"];
             cliente.Email = form["email"];
             cliente.DataNascimento = DateTime.Parse(form["data-nascimento"]);
+            cliente.URLFotoPerfil = $"{PATH_FOTOS}{cliente.Nome}/perfil/";
+
+            GravarFoto(form.Files, cliente.URLFotoPerfil);
 
             if (repositorio.Inserir(cliente))
             {
@@ -46,6 +46,17 @@ namespace McBonaldsMVC.Views.Cadastro
                 return View("Falha", new RespostaViewModel($"{cliente.Nome} houve um erro ao tentar lhe cadastrar. Por favor, tente novamente mais tarde."));
             }            
         }
+
+        public async void GravarFoto(IFormFileCollection arquivos, string urlFoto) { 
+            foreach (var foto in arquivos)
+            {   
+                System.IO.Directory.CreateDirectory(urlFoto).Create();
+                var file = System.IO.File.Create(urlFoto + foto.FileName);
+                await foto.CopyToAsync(file);
+                file.Close();
+            }
+        }
+            
 
 
     }

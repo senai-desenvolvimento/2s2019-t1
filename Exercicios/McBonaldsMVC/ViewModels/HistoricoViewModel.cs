@@ -12,6 +12,6 @@ namespace McBonaldsMVC.ViewModels
         }
 
         public List<Pedido> Pedidos {get;set;}
-        public string Bla {get;set;}
+        public string URLFoto {get;set;}
     }
 }

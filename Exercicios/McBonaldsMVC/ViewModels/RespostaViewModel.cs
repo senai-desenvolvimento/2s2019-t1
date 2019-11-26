@@ -9,6 +9,12 @@ namespace McBonaldsMVC.ViewModels
             this.Mensagem = mensagem;
         }
 
+        public RespostaViewModel(string mensagem, string nomeView) : base()
+        {
+            this.Mensagem = mensagem;
+            this.NomeView = nomeView;
+        }
+
         public string Mensagem {get;set;}
 
     }

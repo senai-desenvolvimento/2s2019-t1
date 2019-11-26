@@ -10,7 +10,7 @@
 
     <main>
         <h2>@ViewData["H2"]</h2>
-        <form method="POST" action="Cadastro/Cadastrar">
+        <form enctype="multipart/form-data" method="POST" action='@Url.Action("CadastrarCliente", "Cadastro")'>
             <div>
                 <label for="nome">Nome Completo</label>
                 <br />
@@ -53,6 +53,12 @@
                 <label for="confirmar-senha">Confirmar Senha</label>
                 <br />
                 <input id="confirmar-senha" type="password" maxlength="20" minlength="6" name="confirmar-senha" />
+            </div>
+
+            <div>
+                <label for="foto-perfil">Foto</label>
+                <br />
+                <input id="foto-perfil" type="file" accept="image/*" name="foto-perfil" />
             </div>
             
             <input type="submit" value="Finalizar cadastro" />

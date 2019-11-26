@@ -358,6 +358,11 @@ thead > tr:first-child > th:last-child {
     padding: 0 .5em;
 }
 
+.mensagem {
+    color: #fff;
+    font-weight: bold;
+}
+
 @media (max-width: 1200px) {
     #banner p {
         font-size: 1.6em;

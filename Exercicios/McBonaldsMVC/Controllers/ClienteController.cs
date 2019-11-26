@@ -2,13 +2,14 @@ using McBonaldsMVC.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using McBonaldsMVC.ViewModels;
-
+using System.IO;
+using System.Linq;
 
 namespace McBonaldsMVC.Controllers
 {
     public class ClienteController : BaseController
     {
-        private ClienteRepository repository = new ClienteRepository();
+        private ClienteRepository clienteRepository = new ClienteRepository();
 
         private PedidoRepository pedidoRepository = new PedidoRepository();
 
@@ -30,7 +31,7 @@ namespace McBonaldsMVC.Controllers
         {
             var usuario = form["email"];
             var senha = form["senha"];
-            var cliente = repository.ObterPor(usuario);
+            var cliente = clienteRepository.ObterPor(usuario);
 
             if (cliente != null)
             {
@@ -50,12 +51,12 @@ namespace McBonaldsMVC.Controllers
                 }
                 else
                 {
-                    return View("Falha", new RespostaViewModel($"Usuário ou senha estão errados"));
+                    return View("Falha", new RespostaViewModel($"Usuário ou senha estão errados", "Login"));
                 }
             }
             else
             {
-                return View("Falha", new RespostaViewModel($"Usuário {usuario} não foi encontrado"));
+                return View("Falha", new RespostaViewModel($"Usuário {usuario} não foi encontrado", "Login"));
             }
         }
 
@@ -63,6 +64,8 @@ namespace McBonaldsMVC.Controllers
         {
 
             var pedidos = pedidoRepository.ListarTodosPorCliente(HttpContext.Session.GetString(SESSION_EMAIL));
+            var cliente = clienteRepository.ObterPor(RecuperarUsuarioEmailDaSessao());
+            var urlFoto = Directory.GetFiles(cliente.URLFotoPerfil).FirstOrDefault();
             
             // EXEMPLO 3 - Criação de objetos
             return View(new HistoricoViewModel()
@@ -70,7 +73,8 @@ namespace McBonaldsMVC.Controllers
                 Pedidos = pedidos,
                 NomeView = "Histórico",
                 UsuarioEmail = RecuperarUsuarioEmailDaSessao(),
-                UsuarioNome = RecuperarUsuarioNomeDaSessao()
+                UsuarioNome = RecuperarUsuarioNomeDaSessao(),
+                URLFoto = urlFoto
             });
         }
 
