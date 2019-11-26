@@ -66,6 +66,7 @@ namespace McBonaldsMVC.Controllers
             var pedidos = pedidoRepository.ListarTodosPorCliente(HttpContext.Session.GetString(SESSION_EMAIL));
             var cliente = clienteRepository.ObterPor(RecuperarUsuarioEmailDaSessao());
             var urlFoto = Directory.GetFiles(cliente.URLFotoPerfil).FirstOrDefault();
+            var urlRelativa = urlFoto.Replace(Directory.GetCurrentDirectory(), "").Replace("\\","/").Replace("wwwroot", "");
             
             // EXEMPLO 3 - Criação de objetos
             return View(new HistoricoViewModel()
@@ -74,7 +75,7 @@ namespace McBonaldsMVC.Controllers
                 NomeView = "Histórico",
                 UsuarioEmail = RecuperarUsuarioEmailDaSessao(),
                 UsuarioNome = RecuperarUsuarioNomeDaSessao(),
-                URLFoto = urlFoto
+                URLFoto = urlRelativa
             });
         }
 

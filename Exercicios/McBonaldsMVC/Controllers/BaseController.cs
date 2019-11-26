@@ -11,7 +11,7 @@ namespace McBonaldsMVC.Controllers
         protected const string SESSION_EMAIL = "_EMAIL";
         protected const string SESSION_CLIENTE = "_CLIENTE";
 
-        protected const string PATH_FOTOS = "wwwroot/images/fotos/";
+        protected const string PATH_FOTOS = "images\\fotos";
 
         public BaseController()
         {

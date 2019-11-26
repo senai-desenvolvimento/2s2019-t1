@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using McBonaldsMVC.Controllers;
 using McBonaldsMVC.Models;
 using McBonaldsMVC.Repositories;
@@ -33,9 +34,12 @@ namespace McBonaldsMVC.Views.Cadastro
             cliente.Senha = form["senha"];
             cliente.Email = form["email"];
             cliente.DataNascimento = DateTime.Parse(form["data-nascimento"]);
-            cliente.URLFotoPerfil = $"{PATH_FOTOS}{cliente.Nome}/perfil/";
+            
+            var urlFoto = $"wwwroot\\{PATH_FOTOS}\\{cliente.Nome}\\perfil\\";
 
-            GravarFoto(form.Files, cliente.URLFotoPerfil);
+            GravarFoto(form.Files, urlFoto);
+
+            cliente.URLFotoPerfil = urlFoto;
 
             if (repositorio.Inserir(cliente))
             {
