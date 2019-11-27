@@ -1,6 +1,6 @@
 @model McBonaldsMVC.ViewModels.PedidoViewModel
 <main>
-        <h2>Pede aí, @Model.NomeCliente!</h2>
+        <h2>Pede aí, @Model.NomeUsuario!</h2>
         <form method="POST" action='@Url.Action("Registrar","Pedido")'>
             <div>
                 <label for="nome">Nome Completo</label>
@@ -23,7 +23,7 @@
             <div>
                 <label for="email">E-mail</label>
                 <br />
-                <input id="email" type="email" value="@Model.Cliente.Email" name="email" />
+                <input id="email" type="email" name="email" value="@Model.Cliente.Email"/>
             </div>
 
             <div class="double-field">
@@ -31,9 +31,11 @@
                     <label for="hamburguer">Hamburguer</label>
                     <select id="hamburguer" name="hamburguer" required>
                         <option value="" disabled selected>Selecione</option>
-                        @foreach(var h in Model.Hamburgueres)
+                        @foreach (var hamburguer in Model.Hamburgueres)
                         {
-                            <option value=@h.Nome>@h.Nome por @h.Preco</option>
+                            <option value=@hamburguer.Nome>@hamburguer.Nome por @hamburguer.Preco
+                                
+                            </option>
                         }
                     </select>
                 </div>
@@ -41,7 +43,7 @@
                     <label for="shake">Shake</label>
                     <select id="shake" name="shake">
                         <option value="" disabled selected>Selecione</option>
-                        @foreach(var s in Model.Shakes)
+                        @foreach (var s in Model.Shakes)
                         {
                             <option value=@s.Nome>@s.Nome por @s.Preco</option>
                         }

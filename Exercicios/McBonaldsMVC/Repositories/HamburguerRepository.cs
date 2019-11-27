@@ -7,18 +7,11 @@ namespace McBonaldsMVC.Repositories
     public class HamburguerRepository
     {
         private const string PATH = "Database/Hamburguer.csv";
-        public HamburguerRepository()
-        {
-            if(!File.Exists(PATH))
-            {
-                File.Create(PATH).Close();
-            }
-        }
 
         public double ObterPrecoDe(string nomeHamburguer)
         {
             var lista = ObterTodos();
-            double preco = 0.0;
+            var preco = 0.0;
             foreach (var item in lista)
             {
                 if(item.Nome.Equals(nomeHamburguer))
@@ -43,6 +36,7 @@ namespace McBonaldsMVC.Repositories
                 h.Preco = double.Parse(dados[1]);
                 hamburgueres.Add(h);
             }
+
             return hamburgueres;
         }
     }

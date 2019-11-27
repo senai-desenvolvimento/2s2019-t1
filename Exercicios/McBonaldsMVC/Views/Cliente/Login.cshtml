@@ -1,24 +1,24 @@
 <main>
-        <h2>Login</h2>
-        <form method="POST" action='@Url.Action("Login","Cliente")'>
+    <h2>Login</h2>
+    <form method="POST" action='@Url.Action("Login", "Cliente")'>
+        
+        <div>
+            <label for="email">E-mail</label>
+            <br />
+            <input id="email" type="email" name="email"/>
+        </div>
 
-            <div>
-                <label for="email">E-mail</label>
-                <br />
-                <input id="email" type="email" name="email"/>
-            </div>
+        <div>
+            <label for="senha">Senha</label>
+            <br />
+            <input id="senha" type="password" name="senha"/>
+        </div>
 
-            <div>
-                <label for="senha">Senha</label>
-                <br />
-                <input id="senha" type="password" name="senha"/>
-            </div>
+        <input type="submit" value="Entrar!" />
 
-            <input type="submit" value="Entrar!" />
+        <div id="link-cadastro">
+            <a href='@Url.Action("Index", "Cadastro")'>Quero me cadastrar!</a>
+        </div>
+    </form>
 
-            <div id="link-cadastro">
-                <a href='@Url.Action("Index", "Cadastro")'>Quero me cadastrar!</a>
-            </div>
-        </form>
-
-    </main>
+</main>

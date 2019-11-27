@@ -8,6 +8,7 @@ namespace McBonaldsMVC.ViewModels
         {
 
         }
+
         public RespostaViewModel(string mensagem)
         {
             this.Mensagem = mensagem;

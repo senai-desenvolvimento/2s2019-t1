@@ -1,40 +1,46 @@
 using System;
 using McBonaldsMVC.Models;
 using McBonaldsMVC.Repositories;
+using McBonaldsMVC.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace McBonaldsMVC.Controllers
 {
-    public class CadastroController : Controller
+    public class CadastroController : AbstractController
     {
+        ClienteRepository clienteRepository = new ClienteRepository();
 
-        ClienteRepository clienteRepositorio = new ClienteRepository();
-        
         public IActionResult Index()
         {
-            return View();
+            return View(new BaseViewModel()
+            {
+                NomeView = "Cadastro",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
         }
 
         public IActionResult CadastrarCliente(IFormCollection form)
         {
             ViewData["Action"] = "Cadastro";
-            try {
+            try
+            {
                 Cliente cliente = new Cliente(
-                    form["nome"], 
-                    form["endereco"], 
+                    form["nome"],
+                    form["endereco"],
                     form["telefone"],
                     form["senha"],
                     form["email"],
-                    DateTime.Parse(form["data-nascimento"])
-                );
-                    
-                clienteRepositorio.Inserir(cliente);
+                    DateTime.Parse(form["data-nascimento"]));
+
+                clienteRepository.Inserir(cliente);
                 
                 return View("Sucesso");
             } 
             catch(Exception e)
             {
+                System.Console.WriteLine(e.StackTrace);
                 return View("Erro");
             }
         }
