@@ -46,7 +46,7 @@ namespace McBonaldsMVC.Controllers
                         default:
                             HttpContext.Session.SetString(SESSION_EMAIL, usuario);
                             HttpContext.Session.SetString(SESSION_CLIENTE, cliente.Nome);
-                            return RedirectToAction("Dashboard", "Administrador");
+                            return RedirectToAction("Dashboard", "Administrador", new RespostaViewModel(""));
                     }
                 }
                 else
@@ -62,7 +62,6 @@ namespace McBonaldsMVC.Controllers
 
         public IActionResult Historico()
         {
-
             var pedidos = pedidoRepository.ListarTodosPorCliente(HttpContext.Session.GetString(SESSION_EMAIL));
             var cliente = clienteRepository.ObterPor(RecuperarUsuarioEmailDaSessao());
             var urlFoto = Directory.GetFiles(cliente.URLFotoPerfil).FirstOrDefault();

@@ -58,7 +58,6 @@ namespace McBonaldsMVC {
 
             app.UseHttpsRedirection ();
             app.UseStaticFiles ();
-            app.UseCookiePolicy ();
             app.UseSession();
             
             app.UseMvc (routes => {
@@ -66,7 +65,8 @@ namespace McBonaldsMVC {
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-
+            // Se não ficar aqui, o TempData não funciona
+            app.UseCookiePolicy ();
             
         }
     }
