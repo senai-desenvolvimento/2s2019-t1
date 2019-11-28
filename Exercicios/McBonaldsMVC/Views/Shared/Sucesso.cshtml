@@ -1,5 +1,9 @@
+@model McBonaldsMVC.ViewModels.RespostaViewModel
 <main>
     <h2>
-        @ViewData["Action"] deu bom!
+        @Model.NomeView deu bom!
     </h2>
+    <p>
+        @Model.Mensagem
+    </p>
 </main>

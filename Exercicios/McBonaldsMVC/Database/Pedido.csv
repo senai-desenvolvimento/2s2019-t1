@@ -1,1 +1,2 @@
-cliente_nome=Fulano;cliente_endereco=BlaBla;cliente_telefone=11 99999-9999;cliente_email=fulano@email.com;hamburguer_nome=furioso;hamburguer_preco=0;shake_nome=chocolate;shake_preco=0;data_pedido=14/11/2019 15:43:34;preco_total=0
+id=1;status_pedido=0;cliente_nome=Fulano;cliente_endereco=BlaBla;cliente_telefone=11 99999-9999;cliente_email=fulano@email.com;hamburguer_nome=Combo da Hora;hamburguer_preco=19,99;shake_nome=Chocolate;shake_preco=12,99;data_pedido=28/11/2019 17:47:42;preco_total=32,98
+id=2;status_pedido=0;cliente_nome=Fulano;cliente_endereco=BlaBla;cliente_telefone=11 99999-9999;cliente_email=fulano@email.com;hamburguer_nome=Vegeburguer;hamburguer_preco=10,99;shake_nome=Chocolate;shake_preco=12,99;data_pedido=28/11/2019 17:52:33;preco_total=23,98
