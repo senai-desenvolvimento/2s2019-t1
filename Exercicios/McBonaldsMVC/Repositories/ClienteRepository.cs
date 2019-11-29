@@ -33,6 +33,7 @@ namespace McBonaldsMVC.Repositories
                 {
                     Cliente c = new Cliente();
                     c.Nome = ExtrairValorDoCampo("nome", item);
+                    c.TipoUsuario = uint.Parse(ExtrairValorDoCampo("tipo_usuario", item));
                     c.Email = ExtrairValorDoCampo("email", item);
                     c.DataNascimento = 
                     DateTime.Parse(ExtrairValorDoCampo("data_nascimento", item));
@@ -48,7 +49,7 @@ namespace McBonaldsMVC.Repositories
 
         private string PrepararRegistroCSV(Cliente cliente)
         {
-            return $"nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento}";
+            return $"tipo_usuario={cliente.TipoUsuario};nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento}";
         }
     }
 }
