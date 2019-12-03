@@ -5,7 +5,7 @@ using System;
 
 namespace McBonaldsMVC.Repositories
 {
-    public abstract class BaseRepository
+    public abstract class AbstractRepository
     {
         protected string[] ObterRegistrosCSV(string PATH)
         {

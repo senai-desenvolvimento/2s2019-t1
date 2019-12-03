@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace McBonaldsMVC.Views.Cadastro
 {
-    public class CadastroController : BaseController
+    public class CadastroController : AbstractController
     {
         ClienteRepository repositorio = new ClienteRepository();
 

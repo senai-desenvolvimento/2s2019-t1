@@ -5,7 +5,7 @@ using McBonaldsMVC.Models;
 
 namespace McBonaldsMVC.Repositories
 {
-    public class PedidoRepository : BaseRepository
+    public class PedidoRepository : AbstractRepository
     {
         public static uint CONT = 0;
         private const string PATH = "Database/Pedido.csv";

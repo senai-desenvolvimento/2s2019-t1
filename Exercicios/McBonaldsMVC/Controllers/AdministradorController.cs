@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace McBonaldsMVC.Controllers
 {
-    public class AdministradorController : BaseController
+    public class AdministradorController : AbstractController
     {
         PedidoRepository pedidoRepository = new PedidoRepository();
 

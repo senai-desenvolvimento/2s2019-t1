@@ -9,7 +9,7 @@ using McBonaldsMVC.Enums;
 
 namespace McBonaldsMVC.Repositories
 {
-    public class ClienteRepository : BaseRepository
+    public class ClienteRepository : AbstractRepository
     {
         public static uint CONT = 0;
         private const string PATH = "Database/Cliente.csv";

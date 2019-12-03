@@ -10,7 +10,7 @@ using McBonaldsMVC.ViewModels;
 
 namespace McBonaldsMVC.Controllers
 {
-    public class HomeController : BaseController
+    public class HomeController : AbstractController
     {
         
         public IActionResult Index()

@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace McBonaldsMVC.Controllers
 {
-    public class ClienteController : BaseController
+    public class ClienteController : AbstractController
     {
         private ClienteRepository clienteRepository = new ClienteRepository();
 

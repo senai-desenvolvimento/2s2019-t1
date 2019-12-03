@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace McBonaldsMVC.Controllers
 {
-    public class PedidoController : BaseController
+    public class PedidoController : AbstractController
     {
         HamburguerRepository hamburguerRepository = new HamburguerRepository();
         ShakeRepository shakeRepository = new ShakeRepository();

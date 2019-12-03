@@ -5,7 +5,7 @@ using System;
 
 namespace McBonaldsMVC.Repositories
 {
-    public abstract class AbstractRepository<T>
+    public abstract class AbstractRepository_Generics<T>
     {
         protected List<T> Conjunto = new List<T>();
         protected ulong CONT = 0;
